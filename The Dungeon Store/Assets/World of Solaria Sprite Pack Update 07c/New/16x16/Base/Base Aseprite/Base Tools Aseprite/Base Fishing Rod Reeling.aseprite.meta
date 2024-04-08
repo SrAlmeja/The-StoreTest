@@ -1,7 +1,419 @@
 fileFormatVersion: 2
 guid: 93ce166745dad87499d39a34bcea5dc9
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Base Fishing Rod Reeling_Frame_0
+    originalName: 
+    pivot: {x: 0.04040404, y: -0.052631583}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 792
+      height: 304
+    spriteID: 108c08f5859996047abbe9c665f5fa60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Base Fishing Rod Reeling_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.07608695}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 316
+      width: 64
+      height: 276
+    spriteID: 474ff1454ba4e964f9ca5b582cef1c04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 316}
+  - name: Base Fishing Rod Reeling_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.07608695}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 600
+      width: 64
+      height: 276
+    spriteID: 95f3c6a4286a28c43bbab383d3c9aba9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 600}
+  - name: Base Fishing Rod Reeling_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.07553957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 316
+      width: 64
+      height: 278
+    spriteID: 0588ec7402394bc4b83b2c1b0beebb59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 316}
+  - name: Base Fishing Rod Reeling_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.07526882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 604
+      width: 66
+      height: 279
+    spriteID: 3dd65decde04bce4cac6959a42748bf5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 604}
+  - name: Base Fishing Rod Reeling_Frame_5
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 316
+      width: 68
+      height: 280
+    spriteID: c07c596f7f5da654cb3f0d7d3faab370
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 316}
+  - name: Base Fishing Rod Reeling_Frame_6
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.07473309}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 4
+      width: 68
+      height: 281
+    spriteID: 3fb6862bc8bca164fbce7b10d01fc035
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 804, y: 4}
+  - name: Base Fishing Rod Reeling_Frame_7
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.07473309}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 880
+      y: 4
+      width: 68
+      height: 281
+    spriteID: 38c7a064a9e9b7b4eae89e3c7748f81d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 880, y: 4}
+  - name: Base Fishing Rod Reeling_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 956
+      y: 4
+      width: 64
+      height: 280
+    spriteID: e062a635b0655fd47af9963c3898938f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 956, y: 4}
+  - name: Base Fishing Rod Reeling_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.07553957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 602
+      width: 64
+      height: 278
+    spriteID: e9b1f6adbdf14df4a89482d965a0fc96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 602}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1739118580
+    name: Base Fishing Rod Reeling
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Base Fishing Rod Reeling_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 8
+        y: 16
+        width: 792
+        height: 304
+      spriteId: 108c08f5859996047abbe9c665f5fa60
+    - name: Base Fishing Rod Reeling_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 8
+        y: 21
+        width: 64
+        height: 276
+      spriteId: 474ff1454ba4e964f9ca5b582cef1c04
+    - name: Base Fishing Rod Reeling_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 8
+        y: 21
+        width: 64
+        height: 276
+      spriteId: 95f3c6a4286a28c43bbab383d3c9aba9
+    - name: Base Fishing Rod Reeling_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 8
+        y: 21
+        width: 64
+        height: 278
+      spriteId: 0588ec7402394bc4b83b2c1b0beebb59
+    - name: Base Fishing Rod Reeling_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 21
+        width: 66
+        height: 279
+      spriteId: 3dd65decde04bce4cac6959a42748bf5
+    - name: Base Fishing Rod Reeling_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 6
+        y: 21
+        width: 68
+        height: 280
+      spriteId: c07c596f7f5da654cb3f0d7d3faab370
+    - name: Base Fishing Rod Reeling_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 21
+        width: 68
+        height: 281
+      spriteId: 3fb6862bc8bca164fbce7b10d01fc035
+    - name: Base Fishing Rod Reeling_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 21
+        width: 68
+        height: 281
+      spriteId: 38c7a064a9e9b7b4eae89e3c7748f81d
+    - name: Base Fishing Rod Reeling_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 8
+        y: 21
+        width: 64
+        height: 280
+      spriteId: e062a635b0655fd47af9963c3898938f
+    - name: Base Fishing Rod Reeling_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 8
+        y: 21
+        width: 64
+        height: 278
+      spriteId: e9b1f6adbdf14df4a89482d965a0fc96
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 320}

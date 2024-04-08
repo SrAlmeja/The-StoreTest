@@ -1,7 +1,391 @@
 fileFormatVersion: 2
 guid: c3a6daadd1f67dc48858d4f6409b9a0e
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Chris Attack (One Hand Weapons)_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.1388889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 36
+      height: 252
+    spriteID: cee9f9a1f02eb2f45af09f0a1b93827c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: Chris Attack (One Hand Weapons)_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.13944224}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 248
+      y: 4
+      width: 36
+      height: 251
+    spriteID: 0f395fa4b1160cf40832c6e453607aef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 248, y: 4}
+  - name: Chris Attack (One Hand Weapons)_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.14}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 4
+      width: 36
+      height: 250
+    spriteID: d59f3300e7faea4478de661eda62c4ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 4}
+  - name: Chris Attack (One Hand Weapons)_Frame_3
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.08214286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 46
+      height: 280
+    spriteID: 68a0fc6e7d099d7458e31008233a8e0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Chris Attack (One Hand Weapons)_Frame_4
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.071174376}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 4
+      width: 42
+      height: 281
+    spriteID: 3d0817791df26e440a625efc4fe4013a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 4}
+  - name: Chris Attack (One Hand Weapons)_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.06985294}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 4
+      width: 44
+      height: 272
+    spriteID: 276674aa1a46c994fb6505fc4f6e38f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 4}
+  - name: Chris Attack (One Hand Weapons)_Frame_6
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.0729927}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 4
+      width: 32
+      height: 274
+    spriteID: 1ca6e0e2fc83aa444813402829009e9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 336, y: 4}
+  - name: Chris Attack (One Hand Weapons)_Frame_7
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.08058608}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 376
+      y: 4
+      width: 26
+      height: 273
+    spriteID: 399206393e15d7b4080de1a98be4e281
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 376, y: 4}
+  - name: Chris Attack (One Hand Weapons)_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.09022556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 4
+      width: 36
+      height: 266
+    spriteID: 185d40509717321459afb7b5e1448f44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -729116042
+    name: Chris Attack (One Hand Weapons)
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Chris Attack (One Hand Weapons)_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 22
+        y: 35
+        width: 36
+        height: 252
+      spriteId: cee9f9a1f02eb2f45af09f0a1b93827c
+    - name: Chris Attack (One Hand Weapons)_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 22
+        y: 35
+        width: 36
+        height: 251
+      spriteId: 0f395fa4b1160cf40832c6e453607aef
+    - name: Chris Attack (One Hand Weapons)_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 22
+        y: 35
+        width: 36
+        height: 250
+      spriteId: d59f3300e7faea4478de661eda62c4ef
+    - name: Chris Attack (One Hand Weapons)_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 17
+        y: 23
+        width: 46
+        height: 280
+      spriteId: 68a0fc6e7d099d7458e31008233a8e0e
+    - name: Chris Attack (One Hand Weapons)_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 19
+        y: 20
+        width: 42
+        height: 281
+      spriteId: 3d0817791df26e440a625efc4fe4013a
+    - name: Chris Attack (One Hand Weapons)_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 18
+        y: 19
+        width: 44
+        height: 272
+      spriteId: 276674aa1a46c994fb6505fc4f6e38f7
+    - name: Chris Attack (One Hand Weapons)_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 24
+        y: 20
+        width: 32
+        height: 274
+      spriteId: 1ca6e0e2fc83aa444813402829009e9a
+    - name: Chris Attack (One Hand Weapons)_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 28
+        y: 22
+        width: 26
+        height: 273
+      spriteId: 399206393e15d7b4080de1a98be4e281
+    - name: Chris Attack (One Hand Weapons)_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 22
+        y: 24
+        width: 36
+        height: 266
+      spriteId: 185d40509717321459afb7b5e1448f44
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 320}

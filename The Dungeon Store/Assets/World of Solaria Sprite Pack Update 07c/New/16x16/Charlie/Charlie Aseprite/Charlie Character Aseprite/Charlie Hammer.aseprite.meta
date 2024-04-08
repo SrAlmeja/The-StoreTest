@@ -1,7 +1,699 @@
 fileFormatVersion: 2
 guid: 4a4a0ed0a6353bc4784994968e100753
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Charlie Hammer_Frame_0
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.12355212}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 533
+      width: 34
+      height: 259
+    spriteID: 1fb84ae7e97bde743821b97e6565bf56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 533}
+  - name: Charlie Hammer_Frame_1
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.11969111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 247
+      y: 531
+      width: 32
+      height: 259
+    spriteID: 2324733f84ddd9d49b7ccb1e9575b082
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 247, y: 531}
+  - name: Charlie Hammer_Frame_2
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.12015504}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 4
+      width: 34
+      height: 258
+    spriteID: f56ca8634f2b4a74eaa0501deb125967
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 4}
+  - name: Charlie Hammer_Frame_3
+    originalName: 
+    pivot: {x: 0.48571432, y: -0.12062256}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 4
+      width: 35
+      height: 257
+    spriteID: ac0ca0f0ebbda254fb492ceb56c190db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 4}
+  - name: Charlie Hammer_Frame_4
+    originalName: 
+    pivot: {x: 0.48648646, y: -0.12062256}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 267
+      width: 37
+      height: 257
+    spriteID: 34df917fd262b1b4ab58e509454886da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 267}
+  - name: Charlie Hammer_Frame_5
+    originalName: 
+    pivot: {x: 0.48571432, y: -0.12109375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 269
+      width: 35
+      height: 256
+    spriteID: 250b75ad96cbae147860327985b7f337
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 269}
+  - name: Charlie Hammer_Frame_6
+    originalName: 
+    pivot: {x: 0.48484847, y: -0.12109375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 247
+      y: 267
+      width: 33
+      height: 256
+    spriteID: 38af473ed4ccbe947bdf88d1cfd0e3e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 247, y: 267}
+  - name: Charlie Hammer_Frame_7
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.1254902}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 247
+      y: 4
+      width: 34
+      height: 255
+    spriteID: 0bf64dc4b80d5d541be87f79a4a125d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 247, y: 4}
+  - name: Charlie Hammer_Frame_8
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.1254902}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 4
+      width: 38
+      height: 255
+    spriteID: 533ce47723b1b444db286e38e224b0b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 4}
+  - name: Charlie Hammer_Frame_9
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.12062256}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 535
+      width: 38
+      height: 257
+    spriteID: 9db9c52551223d44e84eac1ca874b55f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 535}
+  - name: Charlie Hammer_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 532
+      width: 36
+      height: 256
+    spriteID: 695e84000d694c143a64a51f6448ad1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 532}
+  - name: Charlie Hammer_Frame_11
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 270
+      width: 34
+      height: 256
+    spriteID: a893cd314d820bf4a8ea74f55b625188
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 270}
+  - name: Charlie Hammer_Frame_12
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 534
+      width: 34
+      height: 256
+    spriteID: b8a9f66f6a0cf774abcc91e94c469e4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 534}
+  - name: Charlie Hammer_Frame_13
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.12030075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 270
+      width: 28
+      height: 266
+    spriteID: 121b9f1f3fe9753479ae435545574cf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 270}
+  - name: Charlie Hammer_Frame_14
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.12403101}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 4
+      width: 32
+      height: 258
+    spriteID: 989dfe002cf7ee74cac18938dc8cf874
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 4}
+  - name: Charlie Hammer_Frame_15
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.11320755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 556
+      width: 46
+      height: 265
+    spriteID: 42d063c77fe3ab147be3fa1f1248db43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 556}
+  - name: Charlie Hammer_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.111940295}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 280
+      width: 50
+      height: 268
+    spriteID: 0ecff403e43b92f4bb9a10065f71c2ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 280}
+  - name: Charlie Hammer_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.115671635}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 52
+      height: 268
+    spriteID: 1273ed7351499f944971c5145f98e05c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Charlie Hammer_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.12451362}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 270
+      width: 44
+      height: 257
+    spriteID: fc9d4a477532d964986ce0c2ea3c63c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 270}
+  - name: Charlie Hammer_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.12403101}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 4
+      width: 44
+      height: 258
+    spriteID: 23aa6da8f3efe5c4c8819a5ba0c4492e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1241432766
+    name: Charlie Hammer
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Charlie Hammer_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 23
+        y: 32
+        width: 34
+        height: 259
+      spriteId: 1fb84ae7e97bde743821b97e6565bf56
+    - name: Charlie Hammer_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 24
+        y: 31
+        width: 32
+        height: 259
+      spriteId: 2324733f84ddd9d49b7ccb1e9575b082
+    - name: Charlie Hammer_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 23
+        y: 31
+        width: 34
+        height: 258
+      spriteId: f56ca8634f2b4a74eaa0501deb125967
+    - name: Charlie Hammer_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 23
+        y: 31
+        width: 35
+        height: 257
+      spriteId: ac0ca0f0ebbda254fb492ceb56c190db
+    - name: Charlie Hammer_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 22
+        y: 31
+        width: 37
+        height: 257
+      spriteId: 34df917fd262b1b4ab58e509454886da
+    - name: Charlie Hammer_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 23
+        y: 31
+        width: 35
+        height: 256
+      spriteId: 250b75ad96cbae147860327985b7f337
+    - name: Charlie Hammer_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 24
+        y: 31
+        width: 33
+        height: 256
+      spriteId: 38af473ed4ccbe947bdf88d1cfd0e3e6
+    - name: Charlie Hammer_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 23
+        y: 32
+        width: 34
+        height: 255
+      spriteId: 0bf64dc4b80d5d541be87f79a4a125d4
+    - name: Charlie Hammer_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 21
+        y: 32
+        width: 38
+        height: 255
+      spriteId: 533ce47723b1b444db286e38e224b0b9
+    - name: Charlie Hammer_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 21
+        y: 31
+        width: 38
+        height: 257
+      spriteId: 9db9c52551223d44e84eac1ca874b55f
+    - name: Charlie Hammer_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 22
+        y: 32
+        width: 36
+        height: 256
+      spriteId: 695e84000d694c143a64a51f6448ad1b
+    - name: Charlie Hammer_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 23
+        y: 32
+        width: 34
+        height: 256
+      spriteId: a893cd314d820bf4a8ea74f55b625188
+    - name: Charlie Hammer_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 23
+        y: 32
+        width: 34
+        height: 256
+      spriteId: b8a9f66f6a0cf774abcc91e94c469e4b
+    - name: Charlie Hammer_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 26
+        y: 32
+        width: 28
+        height: 266
+      spriteId: 121b9f1f3fe9753479ae435545574cf9
+    - name: Charlie Hammer_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 24
+        y: 32
+        width: 32
+        height: 258
+      spriteId: 989dfe002cf7ee74cac18938dc8cf874
+    - name: Charlie Hammer_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 17
+        y: 30
+        width: 46
+        height: 265
+      spriteId: 42d063c77fe3ab147be3fa1f1248db43
+    - name: Charlie Hammer_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 15
+        y: 30
+        width: 50
+        height: 268
+      spriteId: 0ecff403e43b92f4bb9a10065f71c2ac
+    - name: Charlie Hammer_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 14
+        y: 31
+        width: 52
+        height: 268
+      spriteId: 1273ed7351499f944971c5145f98e05c
+    - name: Charlie Hammer_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 18
+        y: 32
+        width: 44
+        height: 257
+      spriteId: fc9d4a477532d964986ce0c2ea3c63c1
+    - name: Charlie Hammer_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 18
+        y: 32
+        width: 44
+        height: 258
+      spriteId: 23aa6da8f3efe5c4c8819a5ba0c4492e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 320}

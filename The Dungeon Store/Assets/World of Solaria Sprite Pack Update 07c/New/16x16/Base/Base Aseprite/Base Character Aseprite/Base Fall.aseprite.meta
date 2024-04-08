@@ -1,7 +1,475 @@
 fileFormatVersion: 2
 guid: 4473cf7dfd6bad343976a846e26987f9
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Base Fall_Frame_0
+    originalName: 
+    pivot: {x: 0.4666667, y: -2.1333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 15
+      height: 15
+    spriteID: 221534adcc8d4464ba4fcf66f9cb9682
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Base Fall_Frame_1
+    originalName: 
+    pivot: {x: 0.4999999, y: -2.8333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 27
+      width: 12
+      height: 12
+    spriteID: ef5702d2377956c44b58b95bf770b8d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 27}
+  - name: Base Fall_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -3.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 4
+      width: 10
+      height: 10
+    spriteID: debace8c921522b4cbcae6dd3e404012
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 4}
+  - name: Base Fall_Frame_3
+    originalName: 
+    pivot: {x: 0.4999999, y: -6.1666665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 54
+      width: 6
+      height: 6
+    spriteID: e44d338876d0e354faec49ea33d8c303
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 54}
+  - name: Base Fall_Frame_4
+    originalName: 
+    pivot: {x: 0.33333302, y: -12.666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 32
+      width: 3
+      height: 3
+    spriteID: 74577da45c1da284f8c36381c84d6688
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 32}
+  - name: Base Fall_Frame_5
+    originalName: 
+    pivot: {x: 0.42857137, y: -5.142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 39
+      width: 7
+      height: 7
+    spriteID: 106a8330c283f14409d4d732fc9270ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 39}
+  - name: Base Fall_Frame_6
+    originalName: 
+    pivot: {x: 0.45454547, y: -3.0909092}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 47
+      width: 11
+      height: 11
+    spriteID: f5ed279d175c03d4c9e77809e0fece43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 47}
+  - name: Base Fall_Frame_7
+    originalName: 
+    pivot: {x: 0.44444457, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 22
+      width: 9
+      height: 9
+    spriteID: d4f2db353e79012479c450883c343b8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 22}
+  - name: Base Fall_Frame_8
+    originalName: 
+    pivot: {x: 0.42857137, y: -5.142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 4
+      width: 7
+      height: 7
+    spriteID: 00447418bb34de44aad55313f8a611fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 4}
+  - name: Base Fall_Frame_9
+    originalName: 
+    pivot: {x: 0.4000001, y: -7.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 19
+      width: 5
+      height: 5
+    spriteID: 47d731683100ebe46adfc33272bed101
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 19}
+  - name: Base Fall_Frame_10
+    originalName: 
+    pivot: {x: 0.33333302, y: -12.666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 43
+      width: 3
+      height: 3
+    spriteID: 7d271cb83b0ce8f498619cabe60271a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 43}
+  - name: Base Fall_Frame_11
+    originalName: 
+    pivot: {x: 0, y: -39}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 19
+      width: 1
+      height: 1
+    spriteID: 03ac7048a2e42864bbc171617d2824b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 19}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1445873296
+    name: Base Fall
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Base Fall_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 33
+        y: 32
+        width: 15
+        height: 15
+      spriteId: 221534adcc8d4464ba4fcf66f9cb9682
+    - name: Base Fall_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 34
+        y: 34
+        width: 12
+        height: 12
+      spriteId: ef5702d2377956c44b58b95bf770b8d2
+    - name: Base Fall_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 35
+        y: 35
+        width: 10
+        height: 10
+      spriteId: debace8c921522b4cbcae6dd3e404012
+    - name: Base Fall_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 37
+        y: 37
+        width: 6
+        height: 6
+      spriteId: e44d338876d0e354faec49ea33d8c303
+    - name: Base Fall_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 39
+        y: 38
+        width: 3
+        height: 3
+      spriteId: 74577da45c1da284f8c36381c84d6688
+    - name: Base Fall_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 37
+        y: 36
+        width: 7
+        height: 7
+      spriteId: 106a8330c283f14409d4d732fc9270ad
+    - name: Base Fall_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 35
+        y: 34
+        width: 11
+        height: 11
+      spriteId: f5ed279d175c03d4c9e77809e0fece43
+    - name: Base Fall_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 36
+        y: 35
+        width: 9
+        height: 9
+      spriteId: d4f2db353e79012479c450883c343b8a
+    - name: Base Fall_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 37
+        y: 36
+        width: 7
+        height: 7
+      spriteId: 00447418bb34de44aad55313f8a611fe
+    - name: Base Fall_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 38
+        y: 37
+        width: 5
+        height: 5
+      spriteId: 47d731683100ebe46adfc33272bed101
+    - name: Base Fall_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 39
+        y: 38
+        width: 3
+        height: 3
+      spriteId: 7d271cb83b0ce8f498619cabe60271a4
+    - name: Base Fall_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 40
+        y: 39
+        width: 1
+        height: 1
+      spriteId: 03ac7048a2e42864bbc171617d2824b6
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 80}

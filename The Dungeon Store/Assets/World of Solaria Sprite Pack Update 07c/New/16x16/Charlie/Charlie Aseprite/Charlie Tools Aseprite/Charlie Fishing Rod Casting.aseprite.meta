@@ -1,7 +1,559 @@
 fileFormatVersion: 2
 guid: ccf3c6d644571544b8fda5f9d27faaba
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Charlie Fishing Rod Casting_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.13779527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 4
+      width: 44
+      height: 254
+    spriteID: 470a88d787ecd5d4fbb40036061b199e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 230, y: 4}
+  - name: Charlie Fishing Rod Casting_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.15476191}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 282
+      y: 4
+      width: 26
+      height: 252
+    spriteID: d9486873b44951f44bb58dce63d0972e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 282, y: 4}
+  - name: Charlie Fishing Rod Casting_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.16535433}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 282
+      y: 528
+      width: 20
+      height: 254
+    spriteID: 7a74477fe5c0a5c438f45b76eafecac2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 282, y: 528}
+  - name: Charlie Fishing Rod Casting_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.1640625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 282
+      y: 264
+      width: 24
+      height: 256
+    spriteID: 661628384cfdf5943b0afd04ab119d96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 282, y: 264}
+  - name: Charlie Fishing Rod Casting_Frame_4
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.16091953}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 266
+      width: 42
+      height: 261
+    spriteID: 51a0d0f60c068634f975e4483a293218
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 230, y: 266}
+  - name: Charlie Fishing Rod Casting_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.13357401}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 535
+      width: 30
+      height: 277
+    spriteID: 3267b04e109a98c44ad166115c4f1a01
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 230, y: 535}
+  - name: Charlie Fishing Rod Casting_Frame_6
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.12867647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 555
+      width: 42
+      height: 272
+    spriteID: 63ec94995eb5368459036a8539c2be4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 555}
+  - name: Charlie Fishing Rod Casting_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.13059701}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 279
+      width: 58
+      height: 268
+    spriteID: d66ad7d39bf63e6469e1bd2b4bca1e57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 279}
+  - name: Charlie Fishing Rod Casting_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.11985018}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 4
+      width: 64
+      height: 267
+    spriteID: 77abf514e2486234fae2dc982f290f4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 4}
+  - name: Charlie Fishing Rod Casting_Frame_9
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.07636363}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 68
+      height: 275
+    spriteID: 79f7b8d8be8aa1b4baeae9f3c57ba565
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  - name: Charlie Fishing Rod Casting_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.06761566}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 70
+      height: 281
+    spriteID: 6454d1ac903d22845a0ea24a9831deb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Charlie Fishing Rod Casting_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.071174376}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 293
+      width: 70
+      height: 281
+    spriteID: 355dd20220739e24289c2ca9f8d49e52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 293}
+  - name: Charlie Fishing Rod Casting_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 582
+      width: 70
+      height: 280
+    spriteID: d13da0bfbdb4c2542a791acf80f0568b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 582}
+  - name: Charlie Fishing Rod Casting_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.07636363}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 571
+      width: 64
+      height: 275
+    spriteID: 0814a149484d0e448b4e29a2f81f49eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 571}
+  - name: Charlie Fishing Rod Casting_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.07608695}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 287
+      width: 64
+      height: 276
+    spriteID: 541898358517eda4bb204ff5e0a591ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 287}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1991853082
+    name: Charlie Fishing Rod Casting
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Charlie Fishing Rod Casting_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 18
+        y: 35
+        width: 44
+        height: 254
+      spriteId: 470a88d787ecd5d4fbb40036061b199e
+    - name: Charlie Fishing Rod Casting_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 27
+        y: 39
+        width: 26
+        height: 252
+      spriteId: d9486873b44951f44bb58dce63d0972e
+    - name: Charlie Fishing Rod Casting_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 30
+        y: 42
+        width: 20
+        height: 254
+      spriteId: 7a74477fe5c0a5c438f45b76eafecac2
+    - name: Charlie Fishing Rod Casting_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 28
+        y: 42
+        width: 24
+        height: 256
+      spriteId: 661628384cfdf5943b0afd04ab119d96
+    - name: Charlie Fishing Rod Casting_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 19
+        y: 42
+        width: 42
+        height: 261
+      spriteId: 51a0d0f60c068634f975e4483a293218
+    - name: Charlie Fishing Rod Casting_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 25
+        y: 37
+        width: 30
+        height: 277
+      spriteId: 3267b04e109a98c44ad166115c4f1a01
+    - name: Charlie Fishing Rod Casting_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 19
+        y: 35
+        width: 42
+        height: 272
+      spriteId: 63ec94995eb5368459036a8539c2be4c
+    - name: Charlie Fishing Rod Casting_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 35
+        width: 58
+        height: 268
+      spriteId: d66ad7d39bf63e6469e1bd2b4bca1e57
+    - name: Charlie Fishing Rod Casting_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 8
+        y: 32
+        width: 64
+        height: 267
+      spriteId: 77abf514e2486234fae2dc982f290f4d
+    - name: Charlie Fishing Rod Casting_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 21
+        width: 68
+        height: 275
+      spriteId: 79f7b8d8be8aa1b4baeae9f3c57ba565
+    - name: Charlie Fishing Rod Casting_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: 19
+        width: 70
+        height: 281
+      spriteId: 6454d1ac903d22845a0ea24a9831deb7
+    - name: Charlie Fishing Rod Casting_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 5
+        y: 20
+        width: 70
+        height: 281
+      spriteId: 355dd20220739e24289c2ca9f8d49e52
+    - name: Charlie Fishing Rod Casting_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 5
+        y: 20
+        width: 70
+        height: 280
+      spriteId: d13da0bfbdb4c2542a791acf80f0568b
+    - name: Charlie Fishing Rod Casting_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 8
+        y: 21
+        width: 64
+        height: 275
+      spriteId: 0814a149484d0e448b4e29a2f81f49eb
+    - name: Charlie Fishing Rod Casting_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 8
+        y: 21
+        width: 64
+        height: 276
+      spriteId: 541898358517eda4bb204ff5e0a591ec
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 320}

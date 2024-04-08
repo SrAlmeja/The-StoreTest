@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Almeja Studo/Scenes/01MenuScene.unity
+    guid: 8f0e7a3e019d7774bb4e2e8dcf4610da
+  - enabled: 1
+    path: Assets/Almeja Studo/Scenes/02DungeonScene.unity
+    guid: 96dbd678fb81ace4c9b6387a306b4e8f
+  - enabled: 1
+    path: Assets/Almeja Studo/Scenes/03StoreScene.unity
+    guid: 26c821b770ce97c4eaa77da1d24df6ff
   m_configObjects: {}

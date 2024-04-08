@@ -1,7 +1,531 @@
 fileFormatVersion: 2
 guid: 80f49b12f0770d542bcb41fd26b9d160
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Charlie Death_Frame_0
+    originalName: 
+    pivot: {x: 0.50000006, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 46
+      width: 14
+      height: 16
+    spriteID: 3a7ceb474e8e33544a46873c8be9decf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 46}
+  - name: Charlie Death_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 70
+      width: 10
+      height: 16
+    spriteID: bde1973c45045684d925290d0c6cd6ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 23, y: 70}
+  - name: Charlie Death_Frame_2
+    originalName: 
+    pivot: {x: 0.5454545, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 46
+      width: 11
+      height: 16
+    spriteID: f5e0cfdede4cba74db0c502e0b5d2e93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 46}
+  - name: Charlie Death_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 70
+      width: 10
+      height: 16
+    spriteID: 6341a430dc7904a468aa19334bb4601e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 70}
+  - name: Charlie Death_Frame_4
+    originalName: 
+    pivot: {x: 0.50000006, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 46
+      width: 14
+      height: 16
+    spriteID: e08b8447457d5dd4fbb3e7db6962d428
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 46}
+  - name: Charlie Death_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 59
+      y: 70
+      width: 10
+      height: 16
+    spriteID: ea8ad9c7aec3f7946b5af63b115144eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 59, y: 70}
+  - name: Charlie Death_Frame_6
+    originalName: 
+    pivot: {x: 0.45454547, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 46
+      width: 11
+      height: 16
+    spriteID: 9c8a6304fc02b1745b512523c80c683e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 46}
+  - name: Charlie Death_Frame_7
+    originalName: 
+    pivot: {x: 0.5454545, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 46
+      width: 11
+      height: 16
+    spriteID: 8ec0a24cdd0288d4791a616aec906c5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 46}
+  - name: Charlie Death_Frame_8
+    originalName: 
+    pivot: {x: 0.5454545, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 46
+      width: 11
+      height: 16
+    spriteID: 8707169f4d13c124ca07f7a6cf563dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 46}
+  - name: Charlie Death_Frame_9
+    originalName: 
+    pivot: {x: 0.45454547, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 11
+      height: 16
+    spriteID: 013453d7abe59cd4a8b397bbc35748e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: Charlie Death_Frame_10
+    originalName: 
+    pivot: {x: 0.08000002, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 50
+      height: 16
+    spriteID: cb6eaf0c6ca975c4984dc4abacfa94dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Charlie Death_Frame_11
+    originalName: 
+    pivot: {x: 0.041666675, y: -2.909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 4
+      width: 48
+      height: 11
+    spriteID: c1c2d325935582c48aac544ef4b295cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 4}
+  - name: Charlie Death_Frame_12
+    originalName: 
+    pivot: {x: 0.041666675, y: -3.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 28
+      width: 48
+      height: 10
+    spriteID: d4e9fa2e51f688a4fbf2a56f1286b850
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 28}
+  - name: Charlie Death_Frame_13
+    originalName: 
+    pivot: {x: 0.12500003, y: -3.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 70
+      width: 16
+      height: 10
+    spriteID: 12595951af178244a9f04faf27e31f43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 70}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 227490926
+    name: Charlie Death
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Charlie Death_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 33
+        y: 32
+        width: 14
+        height: 16
+      spriteId: 3a7ceb474e8e33544a46873c8be9decf
+    - name: Charlie Death_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 35
+        y: 32
+        width: 10
+        height: 16
+      spriteId: bde1973c45045684d925290d0c6cd6ac
+    - name: Charlie Death_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 34
+        y: 32
+        width: 11
+        height: 16
+      spriteId: f5e0cfdede4cba74db0c502e0b5d2e93
+    - name: Charlie Death_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 35
+        y: 32
+        width: 10
+        height: 16
+      spriteId: 6341a430dc7904a468aa19334bb4601e
+    - name: Charlie Death_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 33
+        y: 32
+        width: 14
+        height: 16
+      spriteId: e08b8447457d5dd4fbb3e7db6962d428
+    - name: Charlie Death_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 35
+        y: 32
+        width: 10
+        height: 16
+      spriteId: ea8ad9c7aec3f7946b5af63b115144eb
+    - name: Charlie Death_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 35
+        y: 32
+        width: 11
+        height: 16
+      spriteId: 9c8a6304fc02b1745b512523c80c683e
+    - name: Charlie Death_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 34
+        y: 32
+        width: 11
+        height: 16
+      spriteId: 8ec0a24cdd0288d4791a616aec906c5b
+    - name: Charlie Death_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 34
+        y: 32
+        width: 11
+        height: 16
+      spriteId: 8707169f4d13c124ca07f7a6cf563dd8
+    - name: Charlie Death_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 35
+        y: 32
+        width: 11
+        height: 16
+      spriteId: 013453d7abe59cd4a8b397bbc35748e7
+    - name: Charlie Death_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 36
+        y: 32
+        width: 50
+        height: 16
+      spriteId: cb6eaf0c6ca975c4984dc4abacfa94dc
+    - name: Charlie Death_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 38
+        y: 32
+        width: 48
+        height: 11
+      spriteId: c1c2d325935582c48aac544ef4b295cd
+    - name: Charlie Death_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 38
+        y: 32
+        width: 48
+        height: 10
+      spriteId: d4e9fa2e51f688a4fbf2a56f1286b850
+    - name: Charlie Death_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 38
+        y: 32
+        width: 16
+        height: 10
+      spriteId: 12595951af178244a9f04faf27e31f43
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 80}

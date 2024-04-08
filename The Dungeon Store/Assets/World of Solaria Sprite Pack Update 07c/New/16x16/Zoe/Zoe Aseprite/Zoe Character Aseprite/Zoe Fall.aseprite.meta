@@ -1,7 +1,475 @@
 fileFormatVersion: 2
 guid: 55e50608ae8148e46aab19526233b10a
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Zoe Fall_Frame_0
+    originalName: 
+    pivot: {x: 0.49999997, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 16
+      height: 16
+    spriteID: e08784b0b2d656545af1bc57778da2d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Zoe Fall_Frame_1
+    originalName: 
+    pivot: {x: 0.53846157, y: -2.6153848}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 28
+      width: 13
+      height: 13
+    spriteID: a7336f3f6d5494d4292e8fde3e89cff4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 28}
+  - name: Zoe Fall_Frame_2
+    originalName: 
+    pivot: {x: 0.5454545, y: -3.1818182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 49
+      width: 11
+      height: 11
+    spriteID: 4af0a7a76f8a77b40bc3d78f08c778bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 49}
+  - name: Zoe Fall_Frame_3
+    originalName: 
+    pivot: {x: 0.5714287, y: -5.2857146}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 40
+      width: 7
+      height: 7
+    spriteID: 86e80644d892b0e43b634a3c08629657
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 40}
+  - name: Zoe Fall_Frame_4
+    originalName: 
+    pivot: {x: 0.33333302, y: -12.666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 34
+      width: 3
+      height: 3
+    spriteID: 4fcd2d30222537245b638c5f8fc48396
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 34}
+  - name: Zoe Fall_Frame_5
+    originalName: 
+    pivot: {x: 0.42857137, y: -5.142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 7
+      height: 7
+    spriteID: cf414dc916b5d714cbd47914760d2624
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 4}
+  - name: Zoe Fall_Frame_6
+    originalName: 
+    pivot: {x: 0.45454547, y: -3.0909092}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 11
+      height: 11
+    spriteID: b3d2a6f16b97339449043e3b9c2892eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 4}
+  - name: Zoe Fall_Frame_7
+    originalName: 
+    pivot: {x: 0.44444457, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 23
+      width: 9
+      height: 9
+    spriteID: e42816cb435ef5e4ca98342c8e702acf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 23}
+  - name: Zoe Fall_Frame_8
+    originalName: 
+    pivot: {x: 0.42857137, y: -5.142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 19
+      width: 7
+      height: 7
+    spriteID: 73e5c4de91e3f3d43b365b7977d99417
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 19}
+  - name: Zoe Fall_Frame_9
+    originalName: 
+    pivot: {x: 0.4000001, y: -7.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 55
+      width: 5
+      height: 5
+    spriteID: 0705251bdd482a4468ff9badadadb11f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 55}
+  - name: Zoe Fall_Frame_10
+    originalName: 
+    pivot: {x: 0.33333302, y: -12.666666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 45
+      width: 3
+      height: 3
+    spriteID: 33c29e6f2c3f1fd42b3426bafcdb2f2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 45}
+  - name: Zoe Fall_Frame_11
+    originalName: 
+    pivot: {x: 0, y: -39}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 34
+      width: 1
+      height: 1
+    spriteID: 35e32dfeb444c1d44aacdeb0218cc857
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 34}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1785239159
+    name: Zoe Fall
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Zoe Fall_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      spriteId: e08784b0b2d656545af1bc57778da2d8
+    - name: Zoe Fall_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 33
+        y: 34
+        width: 13
+        height: 13
+      spriteId: a7336f3f6d5494d4292e8fde3e89cff4
+    - name: Zoe Fall_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 34
+        y: 35
+        width: 11
+        height: 11
+      spriteId: 4af0a7a76f8a77b40bc3d78f08c778bf
+    - name: Zoe Fall_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 36
+        y: 37
+        width: 7
+        height: 7
+      spriteId: 86e80644d892b0e43b634a3c08629657
+    - name: Zoe Fall_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 39
+        y: 38
+        width: 3
+        height: 3
+      spriteId: 4fcd2d30222537245b638c5f8fc48396
+    - name: Zoe Fall_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 37
+        y: 36
+        width: 7
+        height: 7
+      spriteId: cf414dc916b5d714cbd47914760d2624
+    - name: Zoe Fall_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 35
+        y: 34
+        width: 11
+        height: 11
+      spriteId: b3d2a6f16b97339449043e3b9c2892eb
+    - name: Zoe Fall_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 36
+        y: 35
+        width: 9
+        height: 9
+      spriteId: e42816cb435ef5e4ca98342c8e702acf
+    - name: Zoe Fall_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 37
+        y: 36
+        width: 7
+        height: 7
+      spriteId: 73e5c4de91e3f3d43b365b7977d99417
+    - name: Zoe Fall_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 38
+        y: 37
+        width: 5
+        height: 5
+      spriteId: 0705251bdd482a4468ff9badadadb11f
+    - name: Zoe Fall_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 39
+        y: 38
+        width: 3
+        height: 3
+      spriteId: 33c29e6f2c3f1fd42b3426bafcdb2f2a
+    - name: Zoe Fall_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 40
+        y: 39
+        width: 1
+        height: 1
+      spriteId: 35e32dfeb444c1d44aacdeb0218cc857
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 80}

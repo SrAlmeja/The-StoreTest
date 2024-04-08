@@ -1,7 +1,699 @@
 fileFormatVersion: 2
 guid: 526cadd764323e34fa7074bd040b6682
-DefaultImporter:
+ScriptedImporter:
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Odderf Hammer_Frame_0
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.12355212}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 4
+      width: 34
+      height: 259
+    spriteID: e04339fb8accb654b807510882f9da3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 4}
+  - name: Odderf Hammer_Frame_1
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.11969111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 252
+      width: 32
+      height: 259
+    spriteID: 18cb516f02c55c040a5187f67dcd71f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 252}
+  - name: Odderf Hammer_Frame_2
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.12015504}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 271
+      width: 34
+      height: 258
+    spriteID: de82bdbaa27fd8445a7515cb9a75cfea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 271}
+  - name: Odderf Hammer_Frame_3
+    originalName: 
+    pivot: {x: 0.48571432, y: -0.12109375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 499
+      width: 35
+      height: 256
+    spriteID: f7ffa77139831844294de52227224e44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 499}
+  - name: Odderf Hammer_Frame_4
+    originalName: 
+    pivot: {x: 0.48648646, y: -0.12062256}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 534
+      width: 37
+      height: 257
+    spriteID: 72aee0fd88053db4cbed80b0339bf321
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 534}
+  - name: Odderf Hammer_Frame_5
+    originalName: 
+    pivot: {x: 0.48571432, y: -0.12350597}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 763
+      width: 35
+      height: 251
+    spriteID: 3247e49a4127d144a9b9a3673cb6b283
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 763}
+  - name: Odderf Hammer_Frame_6
+    originalName: 
+    pivot: {x: 0.48484847, y: -0.12757201}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 4
+      width: 33
+      height: 243
+    spriteID: 49efd01c36285784582abe3472587bb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 288, y: 4}
+  - name: Odderf Hammer_Frame_7
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 768
+      width: 34
+      height: 240
+    spriteID: 45526c5a8ff6e644d8ccc64aeb5970e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 768}
+  - name: Odderf Hammer_Frame_8
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.13389121}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 252
+      width: 38
+      height: 239
+    spriteID: b061be6d2f2e15d4fa3b1a48ddc3d85f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 252}
+  - name: Odderf Hammer_Frame_9
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.12916666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 4
+      width: 38
+      height: 240
+    spriteID: 10afddac255eedc44af7a5e63db2ecad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 4}
+  - name: Odderf Hammer_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 4
+      width: 36
+      height: 240
+    spriteID: bd87a2c95319b4e44bb930110cbba0ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 4}
+  - name: Odderf Hammer_Frame_11
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.13278009}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 204
+      y: 519
+      width: 34
+      height: 241
+    spriteID: bdb9119e62dca184ab4921e24617432d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 204, y: 519}
+  - name: Odderf Hammer_Frame_12
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.14344262}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 537
+      width: 34
+      height: 244
+    spriteID: 2a5a3743d1e0bf74dabfade3eab82477
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 537}
+  - name: Odderf Hammer_Frame_13
+    originalName: 
+    pivot: {x: 0.50000006, y: -0.15953307}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 248
+      y: 266
+      width: 28
+      height: 257
+    spriteID: 052a94b13b98f1a4a815008617206f38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 248, y: 266}
+  - name: Odderf Hammer_Frame_14
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.14173228}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 248
+      y: 4
+      width: 32
+      height: 254
+    spriteID: 2fd761b040fa6ea408a732baf145f648
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 248, y: 4}
+  - name: Odderf Hammer_Frame_15
+    originalName: 
+    pivot: {x: 0.49999997, y: -0.11320755}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 556
+      width: 46
+      height: 265
+    spriteID: 4b49c4e86ca597d4d87d6650e0b37bfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 556}
+  - name: Odderf Hammer_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.111940295}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 280
+      width: 50
+      height: 268
+    spriteID: a7314d7c0c22ae5408bd083687dbe65d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 280}
+  - name: Odderf Hammer_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.115671635}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 52
+      height: 268
+    spriteID: c07fc3a5b41f7ad41ab7d930126a1826
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Odderf Hammer_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.12451362}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 4
+      width: 44
+      height: 257
+    spriteID: 7ba110cbc59ca8644aea196ac12a18e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 4}
+  - name: Odderf Hammer_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.12840466}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 269
+      width: 44
+      height: 257
+    spriteID: ba4854f1056d569489ff7779e8163277
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 269}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 2021965404
+    name: Odderf Hammer
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Odderf Hammer_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 23
+        y: 32
+        width: 34
+        height: 259
+      spriteId: e04339fb8accb654b807510882f9da3c
+    - name: Odderf Hammer_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 24
+        y: 31
+        width: 32
+        height: 259
+      spriteId: 18cb516f02c55c040a5187f67dcd71f2
+    - name: Odderf Hammer_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 23
+        y: 31
+        width: 34
+        height: 258
+      spriteId: de82bdbaa27fd8445a7515cb9a75cfea
+    - name: Odderf Hammer_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 23
+        y: 31
+        width: 35
+        height: 256
+      spriteId: f7ffa77139831844294de52227224e44
+    - name: Odderf Hammer_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 22
+        y: 31
+        width: 37
+        height: 257
+      spriteId: 72aee0fd88053db4cbed80b0339bf321
+    - name: Odderf Hammer_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 23
+        y: 31
+        width: 35
+        height: 251
+      spriteId: 3247e49a4127d144a9b9a3673cb6b283
+    - name: Odderf Hammer_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 24
+        y: 31
+        width: 33
+        height: 243
+      spriteId: 49efd01c36285784582abe3472587bb3
+    - name: Odderf Hammer_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 23
+        y: 32
+        width: 34
+        height: 240
+      spriteId: 45526c5a8ff6e644d8ccc64aeb5970e0
+    - name: Odderf Hammer_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 21
+        y: 32
+        width: 38
+        height: 239
+      spriteId: b061be6d2f2e15d4fa3b1a48ddc3d85f
+    - name: Odderf Hammer_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 21
+        y: 31
+        width: 38
+        height: 240
+      spriteId: 10afddac255eedc44af7a5e63db2ecad
+    - name: Odderf Hammer_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 22
+        y: 32
+        width: 36
+        height: 240
+      spriteId: bd87a2c95319b4e44bb930110cbba0ab
+    - name: Odderf Hammer_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 23
+        y: 32
+        width: 34
+        height: 241
+      spriteId: bdb9119e62dca184ab4921e24617432d
+    - name: Odderf Hammer_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 23
+        y: 35
+        width: 34
+        height: 244
+      spriteId: 2a5a3743d1e0bf74dabfade3eab82477
+    - name: Odderf Hammer_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 26
+        y: 41
+        width: 28
+        height: 257
+      spriteId: 052a94b13b98f1a4a815008617206f38
+    - name: Odderf Hammer_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 24
+        y: 36
+        width: 32
+        height: 254
+      spriteId: 2fd761b040fa6ea408a732baf145f648
+    - name: Odderf Hammer_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 17
+        y: 30
+        width: 46
+        height: 265
+      spriteId: 4b49c4e86ca597d4d87d6650e0b37bfa
+    - name: Odderf Hammer_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 15
+        y: 30
+        width: 50
+        height: 268
+      spriteId: a7314d7c0c22ae5408bd083687dbe65d
+    - name: Odderf Hammer_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 14
+        y: 31
+        width: 52
+        height: 268
+      spriteId: c07fc3a5b41f7ad41ab7d930126a1826
+    - name: Odderf Hammer_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 18
+        y: 32
+        width: 44
+        height: 257
+      spriteId: 7ba110cbc59ca8644aea196ac12a18e3
+    - name: Odderf Hammer_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 18
+        y: 33
+        width: 44
+        height: 257
+      spriteId: ba4854f1056d569489ff7779e8163277
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 80, y: 320}
