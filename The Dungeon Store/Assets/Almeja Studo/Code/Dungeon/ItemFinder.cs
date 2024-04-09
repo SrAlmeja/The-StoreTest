@@ -11,6 +11,8 @@ public class ItemFinder : MonoBehaviour
     public List<ItemSO> foundItems;
     [SerializeField] private StringSO _dificulty;
 
+    private int _numItemsFound;
+
     #endregion
 
     private void Awake()
@@ -18,9 +20,13 @@ public class ItemFinder : MonoBehaviour
         ItemSO[] itemsArray = Resources.LoadAll<ItemSO>("AlmejaStudio/Scriptables");
         foundItems = new List<ItemSO>(itemsArray);
     }
-    
 
-    public int RandomOfFoundItems(string journeyType, int characterNumber = 1)
+    public void GenerateItems(string dificulty, int characterNumber)
+    {
+        _numItemsFound = RandomOfFoundItems(dificulty, characterNumber);
+    }
+
+    public int RandomOfFoundItems(string journeyType, int characterNumber)
     {
         float rarity = 1f;
         switch (journeyType)
@@ -40,10 +46,30 @@ public class ItemFinder : MonoBehaviour
         return UnityEngine.Random.Range(2,50) + (UnityEngine.Random.value < rarity ? 1:0);
     }
 
-    public void Print()
+    public List<ItemSO> ItemsFound()
     {
-        int numItems = RandomOfFoundItems(_dificulty.value, 1);
+        List<ItemSO> itemsFound = new List<ItemSO>();
+
+        while (itemsFound.Count <= _numItemsFound)
+        {
+            int randomIndex = UnityEngine.Random.Range(0, foundItems.Count);
+            itemsFound.Add(foundItems[randomIndex]);
+        }
+
+        return itemsFound;
+    }
+
+    public void Print(string dificulty, int characterNumber)
+    {
+        int numItems = RandomOfFoundItems(dificulty, characterNumber);
         Debug.Log("Dificultad seleccionada: " + _dificulty.value);
         Debug.Log("Número de ítems encontrados: " + numItems);
+        
+        List<ItemSO> itemsFound = ItemsFound();
+
+        foreach (ItemSO item in itemsFound)
+        {
+            Debug.Log("Item Found: " + item.ItemName + ", Rarity: " + item.RarityTag + ", Quantity: " + item.Cuantity + ", Value: " + item.Value);
+        }
     }
 }

@@ -10,6 +10,8 @@ public class ButtonsActions : MonoBehaviour
     private InventoryManager _inventoryManager;
     
     [SerializeField] private ItemFinder _itemFinder;
+
+    [SerializeField] private int _characterNumber;
     [SerializeField] private StringSO _dificulty;
 
     private void Awake()
@@ -34,8 +36,8 @@ public class ButtonsActions : MonoBehaviour
 
     public void PressToStartAdventure()
     {
-        _itemFinder.RandomOfFoundItems(_dificulty.value, 1);
-        _itemFinder.Print();
+        _itemFinder.GenerateItems(_dificulty.value, _characterNumber);
+        //_itemFinder.Print(_dificulty.value, _characterNumber);
     }
     
     public void PressMeToChangeScene(string sceneName)
