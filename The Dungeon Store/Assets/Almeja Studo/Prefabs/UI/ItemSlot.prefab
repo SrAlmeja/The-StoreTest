@@ -379,7 +379,9 @@ MonoBehaviour:
   quantity: 0
   rarity: 
   sellPrice: 0
-  Image: {fileID: 0}
+  itemSprite: {fileID: 0}
   isFull: 0
   quantityText: {fileID: 4084566325021941418}
   itemImage: {fileID: 1705728026487003119}
+  selectedShader: {fileID: 8699105095974497616}
+  thisItemSelected: 0

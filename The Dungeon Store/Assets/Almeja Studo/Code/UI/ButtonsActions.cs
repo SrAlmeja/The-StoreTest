@@ -37,7 +37,8 @@ public class ButtonsActions : MonoBehaviour
     public void PressToStartAdventure()
     {
         _itemFinder.GenerateItems(_dificulty.value, _characterNumber);
-        _itemFinder.Print(_dificulty.value, _characterNumber);
+        _itemFinder.DropItemToInventory();
+        //_itemFinder.Print(_dificulty.value, _characterNumber);
     }
     
     public void PressMeToChangeScene(string sceneName)

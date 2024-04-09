@@ -94,16 +94,19 @@ public class ItemFinder : MonoBehaviour
         return duplicates;
     }
 
-    public void Print(string dificulty, int characterNumber)
+    public void DropItemToInventory()
     {
-        //Debug.Log("Dificultad seleccionada: " + _dificulty.value);
-        Debug.Log("Número de ítems encontrados: " + _numItemsFound);
-        
         Dictionary<ItemSO, int> duplicates = FindDuplicateItems();
 
         foreach (var pair in duplicates) 
         {
             _inventoryManager.AddItem(pair.Key, pair.Value);
         }
+    }
+    
+    public void Print(string dificulty, int characterNumber)
+    {
+        //Debug.Log("Dificultad seleccionada: " + _dificulty.value);
+        Debug.Log("Número de ítems encontrados: " + _numItemsFound);
     }
 }

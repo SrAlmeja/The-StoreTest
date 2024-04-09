@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class ItemSlot : MonoBehaviour
+public class ItemSlot : MonoBehaviour, IPointerClickHandler
 {
     #region Variables
 
@@ -15,15 +15,51 @@ public class ItemSlot : MonoBehaviour
     [HideInInspector] [SerializeField] private string rarity;
     [HideInInspector] [SerializeField] private int sellPrice;
     [HideInInspector] [SerializeField] private Sprite itemSprite;
-
     [HideInInspector] [SerializeField] public bool isFull;
 
     [SerializeField] private TMP_Text quantityText;
     [SerializeField] private Image itemImage;
 
     private InventoryManager _inventoryManager;
+
+    public Image selectedShader;
+    public bool thisItemSelected;
+    
+    
     #endregion
 
+    private void Awake()
+    {
+        _inventoryManager = FindObjectOfType<InventoryManager>();
+        if (_inventoryManager == null)
+        {
+            Debug.LogWarning("El InventoryManager no se encuentra dentro de la escena");
+        }
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.button == PointerEventData.InputButton.Left)
+        {
+            OnLeftClick();
+        }
+        if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            OnRightClick();
+        }
+    }
+
+    public void OnLeftClick()
+    {
+        _inventoryManager.DeselectAllSlots();
+        selectedShader.enabled = true;
+        thisItemSelected = true;
+    }
+
+    public void OnRightClick()
+    {
+        
+    }
     public void AddItem(ItemSO itemSo, int quantity)
     {
         this.itemName = itemSo.ItemName;
@@ -46,6 +82,10 @@ public class ItemSlot : MonoBehaviour
     {
         quantityText.text = quantity.ToString();
     }
+
+    
+
+    
 }
 
 
