@@ -64,7 +64,7 @@ public class ItemFinder : MonoBehaviour
             int randomIndex = UnityEngine.Random.Range(0, foundItems.Count);
             ItemSO selectedItem = foundItems[randomIndex];
             _itemsList.Add(selectedItem);
-            Debug.Log("Item selected: " + selectedItem.ItemName);
+            //Debug.Log("Item selected: " + selectedItem.ItemName);
         }
 
         return _itemsList;
@@ -101,7 +101,7 @@ public class ItemFinder : MonoBehaviour
         
         Dictionary<ItemSO, int> duplicates = FindDuplicateItems();
 
-        foreach (var pair in duplicates)
+        foreach (var pair in duplicates) 
         {
             _inventoryManager.AddItem(pair.Key, pair.Value);
         }

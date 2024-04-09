@@ -6,11 +6,17 @@ using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
+    #region Variables
+
     [SerializeField] private Canvas _inventoryPanel;
     private bool inventoryActive;
+
+    [SerializeField] private ItemSlot[] itemSlot;
     private ItemFinder _itemFinder;
     private int quantity;
 
+    #endregion
+    
     private void Awake()
     {
         _itemFinder = FindObjectOfType<ItemFinder>();
@@ -37,7 +43,15 @@ public class InventoryManager : MonoBehaviour
 
     public void AddItem(ItemSO itemSo, int quantity)
     {
-        _itemFinder.FindDuplicateItems(); 
+        _itemFinder.FindDuplicateItems(); //get iten quantity
         Debug.Log("Item Found: " + itemSo.ItemName + ", Rarity: " + itemSo.RarityTag + ", Quantity: " + quantity + " Value: " + itemSo.SellPrice);
+        for (int i = 0; i < itemSlot.Length; i++)
+        {
+            if (itemSlot[i].isFull == false)
+            {
+                itemSlot[i].AddItem(itemSo,quantity);
+                return;
+            }
+        }
     }
 }
