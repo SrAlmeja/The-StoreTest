@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: ASmallTree
   RarityTag: Common
-  Cuantity: 1
+  Quantity: 0
   ItemImage: {fileID: 21300000, guid: c336c368e98c65247a3978535695f895, type: 3}
-  Value: 1
+  ItemDescription: You feel like a kaiju when you eat it, raaaar...
+  SellPrice: 5

@@ -65,6 +65,7 @@ public class ItemFinder : MonoBehaviour
             ItemSO selectedItem = foundItems[randomIndex];
             _itemsList.Add(selectedItem);
             //Debug.Log("Item selected: " + selectedItem.ItemName);
+            //Debug.Log("item Description:" + selectedItem.ItemDescription);
         }
 
         return _itemsList;

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: TheAntler
   RarityTag: Common
-  Cuantity: 1
+  Quantity: 0
   ItemImage: {fileID: 21300000, guid: 58a31510aca3c75409093bce1a247814, type: 3}
-  Value: 1
+  ItemDescription: Bambis Atler
+  SellPrice: 100

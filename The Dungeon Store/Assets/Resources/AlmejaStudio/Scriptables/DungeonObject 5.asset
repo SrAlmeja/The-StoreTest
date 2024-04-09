@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: TheBlockOfJonson
   RarityTag: Common
-  Cuantity: 1
+  Quantity: 0
   ItemImage: {fileID: 21300000, guid: 786e892ea4b08bb4eb75c3b1319da447, type: 3}
-  Value: 1
+  ItemDescription: Its only a rock block, but it was from the Rock house
+  SellPrice: 10

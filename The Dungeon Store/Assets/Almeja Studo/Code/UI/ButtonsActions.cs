@@ -38,7 +38,12 @@ public class ButtonsActions : MonoBehaviour
     {
         _itemFinder.GenerateItems(_dificulty.value, _characterNumber);
         _itemFinder.DropItemToInventory();
-        //_itemFinder.Print(_dificulty.value, _characterNumber);
+        _itemFinder.Print(_dificulty.value, _characterNumber);
+    }
+
+    public void PressToSellItem()
+    {
+        Debug.Log("Item Vendido");
     }
     
     public void PressMeToChangeScene(string sceneName)

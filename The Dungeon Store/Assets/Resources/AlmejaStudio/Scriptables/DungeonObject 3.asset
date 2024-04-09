@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: FoodBag
   RarityTag: Common
-  Cuantity: 1
+  Quantity: 0
   ItemImage: {fileID: 21300000, guid: 30ead18ed10eb0141844f1fa4f277ebc, type: 3}
-  Value: 1
+  ItemDescription: a food bag from a week ago...
+  SellPrice: 10

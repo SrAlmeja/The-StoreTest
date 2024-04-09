@@ -12,10 +12,9 @@ public class ItemSO : ScriptableObject
     public string RarityTag;
     public int Quantity;
     [SerializeField] public Sprite ItemImage;
+    [TextArea] public string ItemDescription;
     public int SellPrice;
-    
-    
-    
+
     #endregion
 
 }
