@@ -102,6 +102,7 @@ public class ItemFinder : MonoBehaviour
         foreach (var pair in duplicates) 
         {
             _inventoryManager.AddItem(pair.Key, pair.Value);
+            
         }
     }
     

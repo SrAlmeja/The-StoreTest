@@ -41,18 +41,21 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void AddItem(ItemSO itemSo, int quantity)
+    public int AddItem(ItemSO itemSo, int quantity)
     {
         _itemFinder.FindDuplicateItems(); //get iten quantity
         Debug.Log("Item Found: " + itemSo.ItemName + ", Rarity: " + itemSo.RarityTag + ", Quantity: " + quantity + " Value: " + itemSo.SellPrice);
         for (int i = 0; i < itemSlot.Length; i++)
         {
-            if (itemSlot[i].isFull == false)
+            if (itemSlot[i].isFull == false && itemSlot[i].name == name || itemSlot[i].quantity == 0)
             {
-                itemSlot[i].AddItem(itemSo,quantity);
-                return;
+                int leftOverItems = itemSlot[i].AddItem(itemSo,quantity);
+                if (leftOverItems > 0)
+                    leftOverItems = AddItem(itemSo, leftOverItems);
+                    return leftOverItems;
             }
         }
+        return quantity;
     }
     
     public void DeselectAllSlots()

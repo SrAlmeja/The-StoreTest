@@ -17,4 +17,8 @@ public class ItemSO : ScriptableObject
 
     #endregion
 
+    public void SellItem()
+    {
+           
+    }
 }
