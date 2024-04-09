@@ -22,4 +22,9 @@ public class InventoryManager : MonoBehaviour
             inventoryActive = true;
         }
     }
+
+    public void AddItem(ItemSO itemSo)
+    {
+        Debug.Log("Item Found: " + itemSo.ItemName + ", Rarity: " + itemSo.RarityTag + ", Quantity: " + itemSo.quantity + ", Value: " + itemSo.SellPrice);
+    }
 }
