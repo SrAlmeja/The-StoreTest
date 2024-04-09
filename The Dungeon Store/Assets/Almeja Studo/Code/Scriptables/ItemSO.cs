@@ -10,15 +10,11 @@ public class ItemSO : ScriptableObject
 
     public string ItemName;
     public string RarityTag;
-    public int quantity;
+    public int Quantity;
     [SerializeField] public Sprite ItemImage;
     public int SellPrice;
     
-    public int Quantity
-    {
-        get { return quantity; }
-        set { quantity = value; }
-    }
+    
     
     #endregion
 

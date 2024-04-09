@@ -32,6 +32,7 @@ public class ItemFinder : MonoBehaviour
     public void GenerateItems(string dificulty, int characterNumber)
     {
         _numItemsFound = RandomOfFoundItems(dificulty, characterNumber);
+        ItemsFound();
     }
 
     public int RandomOfFoundItems(string journeyType, int characterNumber)
@@ -56,22 +57,29 @@ public class ItemFinder : MonoBehaviour
 
     public List<ItemSO> ItemsFound()
     {
-        List<ItemSO> itemsFound = new List<ItemSO>();
+        _itemsList = new List<ItemSO>();
 
-        while (itemsFound.Count <= _numItemsFound)
+        for (int i = 0; i < _numItemsFound; i++)
         {
             int randomIndex = UnityEngine.Random.Range(0, foundItems.Count);
-            itemsFound.Add(foundItems[randomIndex]);
+            ItemSO selectedItem = foundItems[randomIndex];
+            _itemsList.Add(selectedItem);
+            Debug.Log("Item selected: " + selectedItem.ItemName);
         }
 
-        return itemsFound;
+        return _itemsList;
     }
 
     public Dictionary<ItemSO, int> FindDuplicateItems()
     {
-        Dictionary<ItemSO, int> duplicates = new FlexibleDictionary<ItemSO, int>();
+        if (_itemsList == null)
+        {
+            Debug.LogError("Error: _itemsList is null");
+            return new Dictionary<ItemSO, int>();
+        }
+        Dictionary<ItemSO, int> duplicates = new Dictionary<ItemSO, int>();
 
-        foreach (ItemSO item in ItemsFound())
+        foreach (ItemSO item in _itemsList)
         {
             if (duplicates.ContainsKey(item))
             {
@@ -82,24 +90,20 @@ public class ItemFinder : MonoBehaviour
                 duplicates[item] = 1;
             }
         }
-        foreach (var pair in duplicates)
-        {
-            pair.Key.Quantity = pair.Value;
-        }
+
         return duplicates;
     }
 
     public void Print(string dificulty, int characterNumber)
     {
-        int numItems = RandomOfFoundItems(dificulty, characterNumber);
-        Debug.Log("Dificultad seleccionada: " + _dificulty.value);
-        Debug.Log("Número de ítems encontrados: " + numItems);
+        //Debug.Log("Dificultad seleccionada: " + _dificulty.value);
+        Debug.Log("Número de ítems encontrados: " + _numItemsFound);
         
-        List<ItemSO> itemsFound = ItemsFound();
+        Dictionary<ItemSO, int> duplicates = FindDuplicateItems();
 
-        foreach (ItemSO item in itemsFound)
+        foreach (var pair in duplicates)
         {
-            _inventoryManager.AddItem(item);
+            _inventoryManager.AddItem(pair.Key, pair.Value);
         }
     }
 }

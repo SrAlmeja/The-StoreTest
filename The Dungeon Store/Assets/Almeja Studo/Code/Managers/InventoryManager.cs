@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,17 @@ public class InventoryManager : MonoBehaviour
 {
     [SerializeField] private Canvas _inventoryPanel;
     private bool inventoryActive;
+    private ItemFinder _itemFinder;
+    private int quantity;
+
+    private void Awake()
+    {
+        _itemFinder = FindObjectOfType<ItemFinder>();
+        if (_itemFinder == null)
+        {
+            Debug.LogWarning("El itemFinder no se encuentra dentro de la escena");
+        }
+    }
 
 
     public void InventorySwitch()
@@ -23,8 +35,9 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void AddItem(ItemSO itemSo)
+    public void AddItem(ItemSO itemSo, int quantity)
     {
-        Debug.Log("Item Found: " + itemSo.ItemName + ", Rarity: " + itemSo.RarityTag + ", Quantity: " + itemSo.quantity + ", Value: " + itemSo.SellPrice);
+        _itemFinder.FindDuplicateItems(); 
+        Debug.Log("Item Found: " + itemSo.ItemName + ", Rarity: " + itemSo.RarityTag + ", Quantity: " + quantity + " Value: " + itemSo.SellPrice);
     }
 }

@@ -26,7 +26,6 @@ public class ItemSlot : MonoBehaviour
     public void AddItem(ItemSO itemSo)
     {
         this.itemName = itemSo.ItemName;
-        this.quantity = itemSo.Quantity;
         this.itemName = itemSo.ItemName;
         this.itemName = itemSo.ItemName;
         this.itemName = itemSo.ItemName;
