@@ -8,6 +8,9 @@ public class ButtonsActions : MonoBehaviour
 {
     private SceneController _sceneController;
     private InventoryManager _inventoryManager;
+    
+    [SerializeField] private ItemFinder _itemFinder;
+    [SerializeField] private StringSO _dificulty;
 
     private void Awake()
     {
@@ -29,6 +32,12 @@ public class ButtonsActions : MonoBehaviour
         
     }
 
+    public void PressToStartAdventure()
+    {
+        _itemFinder.RandomOfFoundItems(_dificulty.value, 1);
+        _itemFinder.Print();
+    }
+    
     public void PressMeToChangeScene(string sceneName)
     {
         _sceneController.LoadScene(sceneName);

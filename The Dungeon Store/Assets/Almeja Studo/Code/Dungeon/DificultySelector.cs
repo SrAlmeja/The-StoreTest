@@ -12,7 +12,7 @@ public class DificultySelector : MonoBehaviour
     }
     public void MediumAdventure()
     {
-        _dificulty.value = "adventurous";
+        _dificulty.value = "Adventurous";
     }
     public void LongAdventure()
     {

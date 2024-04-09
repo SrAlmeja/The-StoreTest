@@ -18,14 +18,7 @@ public class ItemFinder : MonoBehaviour
         ItemSO[] itemsArray = Resources.LoadAll<ItemSO>("AlmejaStudio/Scriptables");
         foundItems = new List<ItemSO>(itemsArray);
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        int numItems = RandomOfFoundItems(_dificulty.value, 1);
-        Debug.Log("Dificultad seleccionada: " + _dificulty.value);
-        Debug.Log("Número de ítems encontrados: " + numItems);
-    }
+    
 
     public int RandomOfFoundItems(string journeyType, int characterNumber = 1)
     {
@@ -33,17 +26,24 @@ public class ItemFinder : MonoBehaviour
         switch (journeyType)
         {
             case "Collector":
-                rarity = 0.8f;
+                rarity = 0.05f;
                 break;
-            case "adventurous":
-                rarity = 0.5f;
+            case "Adventurous":
+                rarity = 0.09f;
                 break;
             case "DungeonMaster":
-                rarity = 0.2f;
+                rarity = 0.1f;
                 break;
         }
-        rarity -= characterNumber * 0.01f;
-        rarity += foundItems.Count * 0.001f;
-        return UnityEngine.Random.Range(5,31) + (UnityEngine.Random.value < rarity ? 1:0);
+        rarity += characterNumber * 0.01f;
+        rarity -= foundItems.Count * 0.01f;
+        return UnityEngine.Random.Range(2,50) + (UnityEngine.Random.value < rarity ? 1:0);
+    }
+
+    public void Print()
+    {
+        int numItems = RandomOfFoundItems(_dificulty.value, 1);
+        Debug.Log("Dificultad seleccionada: " + _dificulty.value);
+        Debug.Log("Número de ítems encontrados: " + numItems);
     }
 }
