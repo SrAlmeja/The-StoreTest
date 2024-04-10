@@ -5,7 +5,7 @@ using TMPro;
 
 public class StoreManager : MonoBehaviour
 {
-    
+    public GameObject Slotprefab;
     public Sprite characterImage;
     public TextMeshPro characterNameText;
     public TextMeshPro costText;
@@ -17,16 +17,10 @@ public class StoreManager : MonoBehaviour
 
     void Awake()
     {
-        characterList = LoadCharactersFromResources("AlmejaStudio/Scriptables/Characters");
-        storeSlotContainer = GameObject.FindWithTag("StoreSlotContainer");
-        if (storeSlotContainer == null)
-        {
-            Debug.LogError("No se encontró un GameObject con el tag 'StoreSlotcontainer' en la escena.");
-            return;
-        }
     }
 
-
+    public GameObject heroSlotPrefab;
+    
     private List<CharacterSO> LoadCharactersFromResources(string path)
     {
         List<CharacterSO> characters = new List<CharacterSO>();
