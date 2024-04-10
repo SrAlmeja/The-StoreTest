@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f118539d9d2731047943ffdd543c14f9, type: 3}
   m_Name: FristCharacters
   m_EditorClassIdentifier: 
-  characterList: []
+  characterList:
+  - {fileID: 11400000, guid: ee1bb2c8086332f4eaf0a37c9fcdf8cb, type: 2}

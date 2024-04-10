@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c647eae65d84241b39637c782241bf, type: 3}
   m_Name: Adventurer 2
   m_EditorClassIdentifier: 
-  Character: {fileID: 3375913966103971944, guid: e487e10d907c66c4090e27fbbe8e8287, type: 3}
+  Character: {fileID: 3375913966103971944, guid: 49a5c686661babb42a2259b5d20f5815, type: 3}

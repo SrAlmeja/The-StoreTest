@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharactersBox : MonoBehaviour
 {
-    public CharacterListOS characterListSO;
+    public CharacterListSO characterListSO;
     private List<CharacterSO> characterList = new List<CharacterSO>(); // Lista privada vacía
 
     private void Awake()

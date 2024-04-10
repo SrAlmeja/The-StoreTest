@@ -8,6 +8,7 @@ public class ButtonsActions : MonoBehaviour
 {
     private SceneController _sceneController;
     private InventoryManager _inventoryManager;
+    private StoreManager _storeManager;
 
     
     [SerializeField] private ItemFinder _itemFinder;
@@ -30,9 +31,13 @@ public class ButtonsActions : MonoBehaviour
         {
             Debug.LogWarning("El InventoryManager no se encuentra dentro de la escena");
         }
+        _storeManager = FindObjectOfType<StoreManager>();
+        if (_inventoryManager == null)
+        {
+            Debug.LogWarning("El StoreManager no se encuentra dentro de la escena");
+        }
         
         #endregion
-        
     }
 
     public void PressToStartAdventure()
@@ -66,6 +71,11 @@ public class ButtonsActions : MonoBehaviour
     public void PressMeToOpenInventory()
     {
         _inventoryManager.InventorySwitch();
+        Debug.Log("Inventory has open");
+    }
+    public void PressMeToOpenStore()
+    {
+        _storeManager.StoreSwitch();
         Debug.Log("Inventory has open");
     }
 

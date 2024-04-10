@@ -42,7 +42,7 @@ public class GroupController : MonoBehaviour
     private void SpawnCharacter(int characterNumber)
     {
         GameObject playerGroup = FindPlayerGroup();
-        if (playerGroup != null && characterSO != null && characterSO.Character != null)
+        if (playerGroup != null && characterSO != null && characterSO.CharacterPrefab != null)
         {
             float startX = -0.5f; // Posición inicial en x
             float startY = 0.5f; // Posición inicial en y
@@ -52,7 +52,7 @@ public class GroupController : MonoBehaviour
                 float xPos = startX + (i % cols) * spacingX; // Calcular la posición en x
                 float yPos = startY + (i / cols) * spacingY; // Calcular la posición en y
                 Vector3 spawnPosition = new Vector3(xPos, yPos, transform.position.z); // Posición de spawn
-                GameObject character = Instantiate(characterSO.Character, spawnPosition, Quaternion.identity);
+                GameObject character = Instantiate(characterSO.CharacterPrefab, spawnPosition, Quaternion.identity);
                 character.transform.SetParent(playerGroup.transform);
             }
         }
