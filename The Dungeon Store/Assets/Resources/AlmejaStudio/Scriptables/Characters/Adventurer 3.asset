@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c647eae65d84241b39637c782241bf, type: 3}
   m_Name: Adventurer 3
   m_EditorClassIdentifier: 
-  Character: {fileID: 3375913966103971944, guid: 3d531de918e904541a90b683ce8e3140, type: 3}
+  characterName: Pink
+  characterSprite: {fileID: 1752219737, guid: 7d194c8479cf66c41bd86b6d17a25541, type: 3}
+  characterCost: 2900
+  posibility: 50
+  isDeath: 0
+  CharacterPrefab: {fileID: 3375913966103971944, guid: 3d531de918e904541a90b683ce8e3140, type: 3}

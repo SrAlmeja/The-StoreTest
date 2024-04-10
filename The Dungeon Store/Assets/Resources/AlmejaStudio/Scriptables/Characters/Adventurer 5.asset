@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c647eae65d84241b39637c782241bf, type: 3}
   m_Name: Adventurer 5
   m_EditorClassIdentifier: 
-  Character: {fileID: 3375913966103971944, guid: 3c77a56d39cca454b9c8de390151b2a5, type: 3}
+  characterName: I'm not a Tanuki
+  characterSprite: {fileID: 1485295420, guid: aaa6f43cca724d843b3cbaf6359bf7a4, type: 3}
+  characterCost: 10000
+  posibility: 0
+  isDeath: 0
+  CharacterPrefab: {fileID: 3375913966103971944, guid: 3c77a56d39cca454b9c8de390151b2a5, type: 3}

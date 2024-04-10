@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c647eae65d84241b39637c782241bf, type: 3}
   m_Name: Adventurer 4
   m_EditorClassIdentifier: 
-  Character: {fileID: 3375913966103971944, guid: 91c8b48bd4eac764c8b885bfce55ed2c, type: 3}
+  characterName: Rene The Kero
+  characterSprite: {fileID: 1916795720, guid: c391ea9d019d7f841a5b68fc66b40e01, type: 3}
+  characterCost: 5000
+  posibility: 35
+  isDeath: 0
+  CharacterPrefab: {fileID: 3375913966103971944, guid: 91c8b48bd4eac764c8b885bfce55ed2c, type: 3}
