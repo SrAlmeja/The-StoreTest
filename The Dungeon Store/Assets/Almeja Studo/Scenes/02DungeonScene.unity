@@ -7226,7 +7226,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   payFrequency: 1
-  paymentAmount: 20
+  paymentAmount: 1
+  isInMenu: {fileID: 0}
   goldText: {fileID: 62394656}
   gold: {fileID: 11400000, guid: 7e9a558ec96ff2547a664aa9914da968, type: 2}
 --- !u!114 &2037895795
@@ -7241,6 +7242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a0203c03a810824f9d5660472b94b00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInMenu: {fileID: 0}
 --- !u!114 &2037895796
 MonoBehaviour:
   m_ObjectHideFlags: 0

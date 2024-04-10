@@ -8,6 +8,7 @@ public class ButtonsActions : MonoBehaviour
 {
     private SceneController _sceneController;
     private InventoryManager _inventoryManager;
+
     
     [SerializeField] private ItemFinder _itemFinder;
 
@@ -29,7 +30,7 @@ public class ButtonsActions : MonoBehaviour
         {
             Debug.LogWarning("El InventoryManager no se encuentra dentro de la escena");
         }
-
+        
         #endregion
         
     }
@@ -43,7 +44,18 @@ public class ButtonsActions : MonoBehaviour
 
     public void PressToSellItem()
     {
-        Debug.Log("Item Vendido");
+        if (!string.IsNullOrEmpty(ItemSlot.selectedItemName))
+        {
+            _inventoryManager.RemoveItem(ItemSlot.selectedItemName);
+            
+            _inventoryManager.DeselectAllSlots();
+
+            Debug.Log("Se ha vendido el artículo: " + ItemSlot.selectedItemName);
+        }
+        else
+        {
+            Debug.Log("No hay un artículo seleccionado para vender");
+        }
     }
     
     public void PressMeToChangeScene(string sceneName)

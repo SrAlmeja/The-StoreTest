@@ -13,20 +13,26 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     #region ItemData
 
-    [HideInInspector] [SerializeField] private string itemName;
-    [HideInInspector] [SerializeField] public int quantity;
-    [HideInInspector] [SerializeField] private string rarity;
-    [HideInInspector] [SerializeField] private int sellPrice;
-    [HideInInspector] [SerializeField] private Sprite itemSprite;
-    [HideInInspector] [SerializeField] private string itemDescription;
-    [HideInInspector] [SerializeField] public bool isFull;
+    [HideInInspector] public string itemName;
+    [HideInInspector] public int quantity;
+    [HideInInspector] public string rarity;
+    [HideInInspector] public int sellPrice;
+    [HideInInspector] public Sprite itemSprite;
+    [HideInInspector] public string itemDescription;
+    [HideInInspector] public bool isFull;
     
     #endregion
 
     #region ItemSlot
 
-    [SerializeField] private TMP_Text quantityText;
-    [SerializeField] private Image itemImage;
+    [HideInInspector] public TMP_Text quantityText;
+    [HideInInspector] public Image itemImage;
+    
+    [SerializeField] private Sprite emptySprite;
+    public static string selectedItemName;
+    public static int selectedItemSellPrice;
+    public static int selecteItemQuantity;
+    
 
     #endregion
 
@@ -42,7 +48,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     private InventoryManager _inventoryManager;
     public Image selectedShader;
     public bool thisItemSelected;
-    public Sprite EmptySprite;
+    
     [SerializeField] private int maxNumberOfItems;
     
     #endregion
@@ -62,28 +68,23 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         {
             OnLeftClick();
         }
-        if (eventData.button == PointerEventData.InputButton.Right)
-        {
-            OnRightClick();
-        }
     }
 
     public void OnLeftClick()
     {
         _inventoryManager.DeselectAllSlots();
+        
+        selectedItemName = itemName;
+        selectedItemSellPrice = sellPrice;
+        selecteItemQuantity = quantity;
+        
         selectedShader.enabled = true;
         thisItemSelected = true;
         itemDescriptionImage.sprite = itemSprite;
         ItemDescriptionNameText.text = itemName;
         ItemDescriptionText.text = itemDescription;
         ItemDescriptionPriceText.text = sellPrice.ToString();
-        if (itemDescriptionImage.sprite == null)
-            itemDescriptionImage.sprite = EmptySprite;
-    }
-
-    public void OnRightClick()
-    {
-        
+        if (itemDescriptionImage.sprite == null) ;
     }
     public int AddItem(ItemSO itemSo, int quantity)
     {
@@ -113,7 +114,6 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
         return 0;
     }
-    
     
 }
 

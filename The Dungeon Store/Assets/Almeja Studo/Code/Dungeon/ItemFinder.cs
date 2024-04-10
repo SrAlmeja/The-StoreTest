@@ -27,6 +27,7 @@ public class ItemFinder : MonoBehaviour
         {
             Debug.LogWarning("El InventoryManager no se encuentra dentro de la escena");
         }
+        
     }
 
     public void GenerateItems(string dificulty, int characterNumber)
