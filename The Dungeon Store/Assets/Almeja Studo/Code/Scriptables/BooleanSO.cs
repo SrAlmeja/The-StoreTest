@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ABoolean", menuName = "AlmejaStudio/Scritables/Variables/Boolean")]
+[CreateAssetMenu(fileName = "ABoolean", menuName = "AlmejaStudio/Scriptables/Variables/Boolean")]
 public class BooleanSO : ScriptableObject
 {
     public bool value;

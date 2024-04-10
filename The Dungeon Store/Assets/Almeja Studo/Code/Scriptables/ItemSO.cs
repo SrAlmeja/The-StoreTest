@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "DungeonObject", menuName = "AlmejaStudio/Scritables/DungeonItems")]
+[CreateAssetMenu(fileName = "DungeonObject", menuName = "AlmejaStudio/Scriptables/DungeonItems")]
 public class ItemSO : ScriptableObject
 {
     #region Variables
