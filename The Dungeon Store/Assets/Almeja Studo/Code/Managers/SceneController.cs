@@ -14,6 +14,8 @@ public class SceneController : MonoBehaviour
         get { return _instance; }
     }
 
+    private PlayVerification _playVerification;
+    
     #endregion
 
     private void Awake()
@@ -28,11 +30,17 @@ public class SceneController : MonoBehaviour
         _instance = this;
         
         DontDestroyOnLoad(this.gameObject);
+        _playVerification = FindObjectOfType<PlayVerification>();
+        if (_playVerification == null)
+        {
+            Debug.LogWarning("El PlayVerification no se encuentra dentro de la escena");
+        }
     }
 
     public void LoadScene(string sceneToLoad)
     {
         SceneManager.LoadScene(sceneToLoad);
+        _playVerification.Verified(sceneToLoad);
     }
     
     public void Pause()
