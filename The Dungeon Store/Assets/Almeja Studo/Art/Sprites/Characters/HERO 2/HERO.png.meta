@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aaa6f43cca724d843b3cbaf6359bf7a4
+guid: c391ea9d019d7f841a5b68fc66b40e01
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_0
+      name: HERO_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59eab328b16842c48a0aa94be3cfacc8
-      internalID: 1273195292
+      spriteID: 4ac79c3f9aa301a4b8ef473e2e8a6712
+      internalID: 1916795720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_1
+      name: HERO_1
       rect:
         serializedVersion: 2
         x: 16
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd23e0f1883618a40878cab3026c0810
-      internalID: 1095415780
+      spriteID: 61e46fa6e2aed7e46ab48ca8661baaf6
+      internalID: 1450356664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_2
+      name: HERO_2
       rect:
         serializedVersion: 2
         x: 32
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a2779fb528539d4d8ab7e09b9a60986
-      internalID: -680851811
+      spriteID: e92f4199dcdb72f47a7c3498f06195aa
+      internalID: 1603866183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_3
+      name: HERO_3
       rect:
         serializedVersion: 2
         x: 48
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d591382d16f67f469fd543e9c8d75c1
-      internalID: -1021253651
+      spriteID: 6e1f76383ccc58f42a290dff3991987d
+      internalID: 534851772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_4
+      name: HERO_4
       rect:
         serializedVersion: 2
         x: 64
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22f04575c3a64e9408c353072699305e
-      internalID: 1145587092
+      spriteID: f1b18fb4c732b494c8c3f8b5e7fe5e6f
+      internalID: -1931330531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_5
+      name: HERO_5
       rect:
         serializedVersion: 2
         x: 80
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0a68a15652dadf4a8fc989151a9083a
-      internalID: 1073492938
+      spriteID: 42ac722ec1cfd7046bf9604b029746e9
+      internalID: 1214694438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_6
+      name: HERO_6
       rect:
         serializedVersion: 2
         x: 96
@@ -276,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78fc7b570b670c943936f19babe39c53
-      internalID: -377013898
+      spriteID: 3919ae562dcee24469c8a0226f23de12
+      internalID: 1190369021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_7
+      name: HERO_7
       rect:
         serializedVersion: 2
         x: 112
@@ -297,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b04a27b24ed94c48868bd89f477378f
-      internalID: 1038603466
+      spriteID: 39835beea47cbef449d8ef7947aa3f5d
+      internalID: 364252381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_8
+      name: HERO_8
       rect:
         serializedVersion: 2
         x: 0
@@ -318,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdd334c142b586041bd2ad6c702229e3
-      internalID: 1793664885
+      spriteID: 0ef46451cbf621a44ab80f3ff52578d2
+      internalID: 824411575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_9
+      name: HERO_9
       rect:
         serializedVersion: 2
         x: 16
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b84363b8f19e754b904421fd9e746f7
-      internalID: 203160679
+      spriteID: 76018268d47740b4db46d6d1bc7a67b1
+      internalID: -1169036116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_10
+      name: HERO_10
       rect:
         serializedVersion: 2
         x: 32
@@ -360,14 +360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8ea34f8a3502d841bd7022cd5a1bfcb
-      internalID: -707952748
+      spriteID: 85e3fc68668f7c648a376e9c49582edd
+      internalID: -925089854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_11
+      name: HERO_11
       rect:
         serializedVersion: 2
         x: 48
@@ -381,14 +381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80365734e88875842baa833469efc368
-      internalID: 1277787898
+      spriteID: dfece3d48ea0aa84c83c494ed1992153
+      internalID: -1256996960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_12
+      name: HERO_12
       rect:
         serializedVersion: 2
         x: 64
@@ -402,14 +402,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71349745749b2044bacce4d214cb5894
-      internalID: -2067852630
+      spriteID: 63f68d56679b2fb4fa1645c7ce5aede6
+      internalID: -248255305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_13
+      name: HERO_13
       rect:
         serializedVersion: 2
         x: 80
@@ -423,14 +423,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b42f2e680c783cd43b696d08fc8b45a5
-      internalID: -970012289
+      spriteID: 48638afd4bb55bf4e97d891d982c8276
+      internalID: 359658895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_14
+      name: HERO_14
       rect:
         serializedVersion: 2
         x: 96
@@ -444,14 +444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5676be81a323bf84785aac7df2ed1216
-      internalID: 318844119
+      spriteID: ebd08ab71c8798a4f8b57f05683bea1c
+      internalID: -1018790366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_15
+      name: HERO_15
       rect:
         serializedVersion: 2
         x: 112
@@ -465,14 +465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bba843395d1eb524091c2269999b746c
-      internalID: -340680813
+      spriteID: 77c55fefe7fb5e24a91c2376fe71fbcd
+      internalID: 536302336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_16
+      name: HERO_16
       rect:
         serializedVersion: 2
         x: 0
@@ -486,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c558f81f8abbe744a0fad6e2d0cc7d9
-      internalID: -1011891583
+      spriteID: a8476510d5148f844ab988657ad00b76
+      internalID: 1269152172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_17
+      name: HERO_17
       rect:
         serializedVersion: 2
         x: 16
@@ -507,14 +507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085488c9e7224984897b3caa48a64138
-      internalID: -1137846558
+      spriteID: ae1b9926ef00a1c409998bba68c0cc62
+      internalID: -1385630390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_18
+      name: HERO_18
       rect:
         serializedVersion: 2
         x: 32
@@ -528,14 +528,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3edbcfcf8bb7d6041aa2d73295871ae8
-      internalID: -282766797
+      spriteID: e8ca3fa80e14f38459ba0a04eb8e4e66
+      internalID: -1920607247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_19
+      name: HERO_19
       rect:
         serializedVersion: 2
         x: 48
@@ -549,14 +549,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b617e26aa9bed6b4582be9b56fa46d67
-      internalID: -1785137006
+      spriteID: 3b476845e02157c42b6f60f6ad40fe2d
+      internalID: 1031808465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_20
+      name: HERO_20
       rect:
         serializedVersion: 2
         x: 64
@@ -570,14 +570,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be6d4b5bf1dcbe944b823219c4c0622e
-      internalID: 1437248120
+      spriteID: cd6f58aa7dec15341ba7818bb4d4cb37
+      internalID: 101670269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_21
+      name: HERO_21
       rect:
         serializedVersion: 2
         x: 80
@@ -591,14 +591,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 552292d3ce693044e80c6ad830759fa4
-      internalID: 1884740520
+      spriteID: 19f7524d4c7e11c44a487ab80756fe2a
+      internalID: -2090145507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_22
+      name: HERO_22
       rect:
         serializedVersion: 2
         x: 96
@@ -612,14 +612,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 806d3c0d31ed7914fbf52ce9331d336d
-      internalID: 1832732723
+      spriteID: 44ec1754728b28a4e92c9ea4505c0b71
+      internalID: -1021992560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_23
+      name: HERO_23
       rect:
         serializedVersion: 2
         x: 112
@@ -633,14 +633,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2f2058e0a1535944a800cd317fe7754
-      internalID: -1197729437
+      spriteID: f3097793101348a4db770e60dd603102
+      internalID: -689363946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_24
+      name: HERO_24
       rect:
         serializedVersion: 2
         x: 0
@@ -654,14 +654,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afde77fe8cdf5ba4a91b8ca6ab0e17f5
-      internalID: 330511154
+      spriteID: 0958a4adc021d6946a125a405ee1da3b
+      internalID: -802788761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_25
+      name: HERO_25
       rect:
         serializedVersion: 2
         x: 16
@@ -675,14 +675,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81b516e59bdf90141aedfd78b07392cb
-      internalID: -1923000649
+      spriteID: 65aa5188785eadc46b8981b36141757b
+      internalID: 90852609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_26
+      name: HERO_26
       rect:
         serializedVersion: 2
         x: 32
@@ -696,14 +696,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd6e81f88ec15ce40b151cfccf92b18f
-      internalID: 65128840
+      spriteID: 7c48cc6ed89883248b050cba22dd2fa7
+      internalID: 2122516812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_27
+      name: HERO_27
       rect:
         serializedVersion: 2
         x: 48
@@ -717,14 +717,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 857ac98d7bfbdd9468c02f2661cfb63a
-      internalID: -2049153193
+      spriteID: e4f341172d7165a49b95fa8734312927
+      internalID: 447801418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_28
+      name: HERO_28
       rect:
         serializedVersion: 2
         x: 64
@@ -738,14 +738,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 685492e519c578646ae4cd33d20a064c
-      internalID: 1380370652
+      spriteID: 6cd0e37fdaab4d44dbae5ab3cd0cde4a
+      internalID: 742473198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_29
+      name: HERO_29
       rect:
         serializedVersion: 2
         x: 80
@@ -759,14 +759,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41b82979a2aaa94408cca5444d4626e8
-      internalID: -1477283318
+      spriteID: c8df47953c0dc8545bf199a673072062
+      internalID: 1821346329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_30
+      name: HERO_30
       rect:
         serializedVersion: 2
         x: 96
@@ -780,14 +780,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abd3a0e53b0a0c94c97cf88298991e11
-      internalID: -1894508908
+      spriteID: c77c4a00074d45040bd8457b9cee94e9
+      internalID: 1446871621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_31
+      name: HERO_31
       rect:
         serializedVersion: 2
         x: 112
@@ -801,14 +801,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22914eff46d38874d8fe79a89223e98d
-      internalID: -1868287002
+      spriteID: 2ee521f2117a2af48904f754dc96fbda
+      internalID: 226082118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_32
+      name: HERO_32
       rect:
         serializedVersion: 2
         x: 0
@@ -822,14 +822,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e55ed9f9d1a40409db14f9473cd962
-      internalID: -986508464
+      spriteID: cdd86c6ae7241404abcc98e98b81bf12
+      internalID: -1754438936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_33
+      name: HERO_33
       rect:
         serializedVersion: 2
         x: 16
@@ -843,14 +843,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91ce1da47a67b754788af309744463ff
-      internalID: 1584028830
+      spriteID: e01ee232cf7cd5c4f863880aeb6d4245
+      internalID: -1290785065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_34
+      name: HERO_34
       rect:
         serializedVersion: 2
         x: 32
@@ -864,14 +864,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bd79288c425fc543b714d1bd8f60798
-      internalID: 48627006
+      spriteID: 28efb41ba8808674ba90f503c14c46a6
+      internalID: -677849949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_35
+      name: HERO_35
       rect:
         serializedVersion: 2
         x: 48
@@ -885,14 +885,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9125571a79cdd47be164f7920a82a4
-      internalID: 265657124
+      spriteID: b224308ebef8c8c41943544862927225
+      internalID: 407506439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_36
+      name: HERO_36
       rect:
         serializedVersion: 2
         x: 64
@@ -906,14 +906,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ac6909dc8c81ba4386456defe4b51ae
-      internalID: 762974154
+      spriteID: e472cfde3e6592349a42abb5a6065c0c
+      internalID: 446814130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_37
+      name: HERO_37
       rect:
         serializedVersion: 2
         x: 80
@@ -927,14 +927,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12848c8cc9419bf45a00ca230b6c1a21
-      internalID: 1768167752
+      spriteID: 42b88f42059a97344abd6f581f97d4c5
+      internalID: -2112764639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_38
+      name: HERO_38
       rect:
         serializedVersion: 2
         x: 96
@@ -948,14 +948,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90c7a5fc9d1fb374d855241d2e697357
-      internalID: 914014623
+      spriteID: 9a6a33e4eb3f5fb4bb4b1d079d4ea5c2
+      internalID: 1074565469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_39
+      name: HERO_39
       rect:
         serializedVersion: 2
         x: 112
@@ -969,14 +969,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf253df94f08564ab30249c2df9ce31
-      internalID: 127780561
+      spriteID: 3b1327035e3a94f44ac711b836ce8536
+      internalID: -1627477003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_40
+      name: HERO_40
       rect:
         serializedVersion: 2
         x: 0
@@ -990,14 +990,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31efbcc791f606d478e2df766a58cacd
-      internalID: 1368393723
+      spriteID: 5ccc99fc38cc07942a3adc9e5bc92bd8
+      internalID: 92858605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_41
+      name: HERO_41
       rect:
         serializedVersion: 2
         x: 16
@@ -1011,14 +1011,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7f4e83a31861e94986d7dbb5df76abb
-      internalID: 1231747300
+      spriteID: 2b5bfa763a1b13742953db457bd487b7
+      internalID: -1039996436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_42
+      name: HERO_42
       rect:
         serializedVersion: 2
         x: 32
@@ -1032,14 +1032,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6caec9ac75ff397458f4917a2add7c84
-      internalID: -1413885918
+      spriteID: cc086bda39c4901439c0ef2c89826ed9
+      internalID: -1551658808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_43
+      name: HERO_43
       rect:
         serializedVersion: 2
         x: 48
@@ -1053,14 +1053,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 785c38a8965118a4f8f363f043456eb1
-      internalID: 57714421
+      spriteID: cfd149afbb6650f40aea8f7d604a4e63
+      internalID: 841866665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_44
+      name: HERO_44
       rect:
         serializedVersion: 2
         x: 64
@@ -1074,14 +1074,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cdbaec43b1c2b94c916b7dbbe555be5
-      internalID: -1876670829
+      spriteID: 3047f5eef178f9b459e4860e3696ace4
+      internalID: -1373463926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_45
+      name: HERO_45
       rect:
         serializedVersion: 2
         x: 80
@@ -1095,14 +1095,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e85d8f6340cf6438a6b7aabd069e18
-      internalID: 2084244714
+      spriteID: cc8e6df8921526046ba45d35e69b5acb
+      internalID: 554183157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_46
+      name: HERO_46
       rect:
         serializedVersion: 2
         x: 96
@@ -1116,14 +1116,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ea29917fa1b1d4a8319b79a4e3531e
-      internalID: -1706089278
+      spriteID: 227cf2ab6733a0e47ae8ae0cac47108d
+      internalID: 650192885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_47
+      name: HERO_47
       rect:
         serializedVersion: 2
         x: 112
@@ -1137,14 +1137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed2933f73b6326c40b41f912c85e99f4
-      internalID: -361834943
+      spriteID: 61d3fd9368244b54088649d4a1e9ca95
+      internalID: -2123960126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_48
+      name: HERO_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1158,14 +1158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45b6f74477ce17041b26eb258a53b13b
-      internalID: -388852026
+      spriteID: e298cba85c1092c40bada64622b10645
+      internalID: 1858815801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_49
+      name: HERO_49
       rect:
         serializedVersion: 2
         x: 16
@@ -1179,14 +1179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5073370ea0d664541acb92eefabe8a45
-      internalID: 1429187641
+      spriteID: 3184ce1167063ff40ae11ccf039cbaa6
+      internalID: 237951225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_50
+      name: HERO_50
       rect:
         serializedVersion: 2
         x: 32
@@ -1200,14 +1200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19adcf4b45a82174ea97872bea5e3884
-      internalID: -256016079
+      spriteID: d340fda68b99b6841a1bbeba6a5d8c4c
+      internalID: 1902208442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_51
+      name: HERO_51
       rect:
         serializedVersion: 2
         x: 48
@@ -1221,14 +1221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efd23714c3f26b94d9a4aae5340d8eac
-      internalID: 468490880
+      spriteID: 0f6ca27b4e5dec445b685ce9bb300f5a
+      internalID: -1482005626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_52
+      name: HERO_52
       rect:
         serializedVersion: 2
         x: 64
@@ -1242,14 +1242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15bfe5505b7c6364388b9c9ad1b9f8d3
-      internalID: 1857962898
+      spriteID: 73a1d31c99fa2d54c9d094d3e40fc9dd
+      internalID: 696091632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_53
+      name: HERO_53
       rect:
         serializedVersion: 2
         x: 80
@@ -1263,14 +1263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d53381aecc941b4c8370c80053612cf
-      internalID: 1730397253
+      spriteID: 0b6cb45b8c8833d4f86b55803082354e
+      internalID: -1487091480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_54
+      name: HERO_54
       rect:
         serializedVersion: 2
         x: 96
@@ -1284,14 +1284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7585ad43aff60ef4f94d4843b643dc08
-      internalID: -1827125327
+      spriteID: 5055d9b2b71f1144dbedb834292e2423
+      internalID: 524538513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_55
+      name: HERO_55
       rect:
         serializedVersion: 2
         x: 112
@@ -1305,14 +1305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fc53f5d4c041354a84b794733d1e9ec
-      internalID: 2145086609
+      spriteID: ecce1b306770f40489b52f559d940ace
+      internalID: 314941281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_56
+      name: HERO_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1326,14 +1326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba780974116a49e499554223dd3cc85a
-      internalID: -994277138
+      spriteID: 55e384f44a7ed7645891aa2379c4a248
+      internalID: 746572019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_57
+      name: HERO_57
       rect:
         serializedVersion: 2
         x: 16
@@ -1347,14 +1347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f014bc3adfab9e4b9abaeead3e71fab
-      internalID: -368816654
+      spriteID: 356b8903c73b5be4f88eedbdf8d566dd
+      internalID: -1645498417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_58
+      name: HERO_58
       rect:
         serializedVersion: 2
         x: 32
@@ -1368,14 +1368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d60308c9b9e7125438506dc8109ea94f
-      internalID: -1045706668
+      spriteID: 564ee7151adf7fd46b416f2806930493
+      internalID: 1335315038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_59
+      name: HERO_59
       rect:
         serializedVersion: 2
         x: 48
@@ -1389,14 +1389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47525c800085ceb4787915e4c84b849a
-      internalID: -363459589
+      spriteID: f3d7b9c3b0e6e7e428d75e31c417a621
+      internalID: -1507209378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_60
+      name: HERO_60
       rect:
         serializedVersion: 2
         x: 64
@@ -1410,14 +1410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de7dad9754b226e42badb909e457c686
-      internalID: -752169640
+      spriteID: 9ed517a3da7bbd14ead47b6667650be0
+      internalID: -1166890552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_61
+      name: HERO_61
       rect:
         serializedVersion: 2
         x: 80
@@ -1431,14 +1431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb536e0d289863747ab4f01eb49190a6
-      internalID: 1907180054
+      spriteID: 16d8e6824bab16b4fa1cdd76058ec04b
+      internalID: -254101134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_62
+      name: HERO_62
       rect:
         serializedVersion: 2
         x: 96
@@ -1452,14 +1452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bc31733a359a2443b8105eee9b387d9
-      internalID: -132373634
+      spriteID: 2410b5ddea8c5f042a2cbfff01ce109e
+      internalID: -1447338466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_63
+      name: HERO_63
       rect:
         serializedVersion: 2
         x: 112
@@ -1473,14 +1473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88b0f8dcca11aea42b165a9fd4a27e30
-      internalID: 349430083
+      spriteID: 639e153866117f140bef505a1a763c90
+      internalID: 1576353545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_64
+      name: HERO_64
       rect:
         serializedVersion: 2
         x: 16
@@ -1494,14 +1494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bab3f8956d287449a727f3b749f0c8f
-      internalID: -144036142
+      spriteID: e83ddf8fbd4b47e4e99487446458db67
+      internalID: 289599469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_65
+      name: HERO_65
       rect:
         serializedVersion: 2
         x: 48
@@ -1515,14 +1515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bb5d9ad0f08b904fad9b8ff8d3785a2
-      internalID: 2083198627
+      spriteID: ba060a68bc0cb104aa9613ea77263a39
+      internalID: -1798139567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_66
+      name: HERO_66
       rect:
         serializedVersion: 2
         x: 64
@@ -1536,14 +1536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b933c44fe6e9cd40b19d383298887fd
-      internalID: -1600654824
+      spriteID: ae41e5f578a377f4ea01b3c0795c0b3c
+      internalID: -885488940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_67
+      name: HERO_67
       rect:
         serializedVersion: 2
         x: 96
@@ -1557,14 +1557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d9abe7a86f6d8744ac741f72072aa8c
-      internalID: -1091234290
+      spriteID: 3d5946bb2792c874182b84bf5cfc5a4d
+      internalID: -613296315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_68
+      name: HERO_68
       rect:
         serializedVersion: 2
         x: 0
@@ -1578,14 +1578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2938c7a6dd3ce54298af5550ec05830
-      internalID: -792742242
+      spriteID: 7f204b7e8d76cd4488c02de9919fc451
+      internalID: 746695722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_69
+      name: HERO_69
       rect:
         serializedVersion: 2
         x: 32
@@ -1599,14 +1599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61459de3327155848802bbf5963b8bd4
-      internalID: -274421196
+      spriteID: 5cde19a063ed20948b5bc6a211cac7d2
+      internalID: 1681532998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_70
+      name: HERO_70
       rect:
         serializedVersion: 2
         x: 80
@@ -1620,14 +1620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb9cb6f6f7258974bb039ced69d20d00
-      internalID: -905296662
+      spriteID: 5dab2ff4ddac50d4ca50e1f78aecd450
+      internalID: 447771736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_71
+      name: HERO_71
       rect:
         serializedVersion: 2
         x: 112
@@ -1641,14 +1641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fd021c2cd986764fb04e91d9a090c48
-      internalID: 488258647
+      spriteID: 3b0eda1c07768e34286e8f0eaea401c9
+      internalID: 1821447695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_72
+      name: HERO_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1662,14 +1662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afcc80cb0602bbb47ab2a700025ff515
-      internalID: -445383159
+      spriteID: d72bcd02b63af234cbf396d04aade3f9
+      internalID: -2073527398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_73
+      name: HERO_73
       rect:
         serializedVersion: 2
         x: 32
@@ -1683,14 +1683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5cdd0988b1461049a245d47e0ecfee6
-      internalID: 307542308
+      spriteID: d10fd0aee3922d8479cb397f89d9e90d
+      internalID: -598324732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_74
+      name: HERO_74
       rect:
         serializedVersion: 2
         x: 64
@@ -1704,14 +1704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213f06b9d0015a6458af985321691266
-      internalID: -1157108044
+      spriteID: 3b256b241b4b7ca4e88fb4f39abd78d8
+      internalID: -2096084407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_75
+      name: HERO_75
       rect:
         serializedVersion: 2
         x: 96
@@ -1725,14 +1725,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8b43182198274d4e83bb69a86562924
-      internalID: -1600549939
+      spriteID: 99935aa925cbaa94aaf1e6d5459da4bf
+      internalID: -220776743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_76
+      name: HERO_76
       rect:
         serializedVersion: 2
         x: 80
@@ -1746,14 +1746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07dd44bdca65134280020303a29817b
-      internalID: 1921755824
+      spriteID: 9e416567230e09843903abc8eb493bc8
+      internalID: 1572520630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_77
+      name: HERO_77
       rect:
         serializedVersion: 2
         x: 112
@@ -1767,14 +1767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84802666f41909144b27a2a0faf6cf8e
-      internalID: -1056848788
+      spriteID: 8bffc4eff7e7e69409a2401ddaf85879
+      internalID: 1648298946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_78
+      name: HERO_78
       rect:
         serializedVersion: 2
         x: 16
@@ -1788,14 +1788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad2972b1a476544e8ac1ca4bc31f92b
-      internalID: -1626557507
+      spriteID: 6d5b0a6e9f931c843a0b9ca6a9249c9c
+      internalID: 1071396194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TanukiBrownWithLeaf_79
+      name: HERO_79
       rect:
         serializedVersion: 2
         x: 48
@@ -1809,8 +1809,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2db97dae1acd5cd448678f2156cafa2c
-      internalID: 230721258
+      spriteID: cc1cb8181dd8c884eacab4e078ad5075
+      internalID: 549822044
       vertices: []
       indices: 
       edges: []
@@ -1818,7 +1818,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7b74d8f9e72b79040b8630d17f4d195b
+    spriteID: 0d72c206edcaab94aaa4fb3dd3f3c6b0
     internalID: 0
     vertices: []
     indices: 
@@ -1826,86 +1826,86 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TanukiBrownWithLeaf_0: 1273195292
-      TanukiBrownWithLeaf_1: 1095415780
-      TanukiBrownWithLeaf_10: -707952748
-      TanukiBrownWithLeaf_11: 1277787898
-      TanukiBrownWithLeaf_12: -2067852630
-      TanukiBrownWithLeaf_13: -970012289
-      TanukiBrownWithLeaf_14: 318844119
-      TanukiBrownWithLeaf_15: -340680813
-      TanukiBrownWithLeaf_16: -1011891583
-      TanukiBrownWithLeaf_17: -1137846558
-      TanukiBrownWithLeaf_18: -282766797
-      TanukiBrownWithLeaf_19: -1785137006
-      TanukiBrownWithLeaf_2: -680851811
-      TanukiBrownWithLeaf_20: 1437248120
-      TanukiBrownWithLeaf_21: 1884740520
-      TanukiBrownWithLeaf_22: 1832732723
-      TanukiBrownWithLeaf_23: -1197729437
-      TanukiBrownWithLeaf_24: 330511154
-      TanukiBrownWithLeaf_25: -1923000649
-      TanukiBrownWithLeaf_26: 65128840
-      TanukiBrownWithLeaf_27: -2049153193
-      TanukiBrownWithLeaf_28: 1380370652
-      TanukiBrownWithLeaf_29: -1477283318
-      TanukiBrownWithLeaf_3: -1021253651
-      TanukiBrownWithLeaf_30: -1894508908
-      TanukiBrownWithLeaf_31: -1868287002
-      TanukiBrownWithLeaf_32: -986508464
-      TanukiBrownWithLeaf_33: 1584028830
-      TanukiBrownWithLeaf_34: 48627006
-      TanukiBrownWithLeaf_35: 265657124
-      TanukiBrownWithLeaf_36: 762974154
-      TanukiBrownWithLeaf_37: 1768167752
-      TanukiBrownWithLeaf_38: 914014623
-      TanukiBrownWithLeaf_39: 127780561
-      TanukiBrownWithLeaf_4: 1145587092
-      TanukiBrownWithLeaf_40: 1368393723
-      TanukiBrownWithLeaf_41: 1231747300
-      TanukiBrownWithLeaf_42: -1413885918
-      TanukiBrownWithLeaf_43: 57714421
-      TanukiBrownWithLeaf_44: -1876670829
-      TanukiBrownWithLeaf_45: 2084244714
-      TanukiBrownWithLeaf_46: -1706089278
-      TanukiBrownWithLeaf_47: -361834943
-      TanukiBrownWithLeaf_48: -388852026
-      TanukiBrownWithLeaf_49: 1429187641
-      TanukiBrownWithLeaf_5: 1073492938
-      TanukiBrownWithLeaf_50: -256016079
-      TanukiBrownWithLeaf_51: 468490880
-      TanukiBrownWithLeaf_52: 1857962898
-      TanukiBrownWithLeaf_53: 1730397253
-      TanukiBrownWithLeaf_54: -1827125327
-      TanukiBrownWithLeaf_55: 2145086609
-      TanukiBrownWithLeaf_56: -994277138
-      TanukiBrownWithLeaf_57: -368816654
-      TanukiBrownWithLeaf_58: -1045706668
-      TanukiBrownWithLeaf_59: -363459589
-      TanukiBrownWithLeaf_6: -377013898
-      TanukiBrownWithLeaf_60: -752169640
-      TanukiBrownWithLeaf_61: 1907180054
-      TanukiBrownWithLeaf_62: -132373634
-      TanukiBrownWithLeaf_63: 349430083
-      TanukiBrownWithLeaf_64: -144036142
-      TanukiBrownWithLeaf_65: 2083198627
-      TanukiBrownWithLeaf_66: -1600654824
-      TanukiBrownWithLeaf_67: -1091234290
-      TanukiBrownWithLeaf_68: -792742242
-      TanukiBrownWithLeaf_69: -274421196
-      TanukiBrownWithLeaf_7: 1038603466
-      TanukiBrownWithLeaf_70: -905296662
-      TanukiBrownWithLeaf_71: 488258647
-      TanukiBrownWithLeaf_72: -445383159
-      TanukiBrownWithLeaf_73: 307542308
-      TanukiBrownWithLeaf_74: -1157108044
-      TanukiBrownWithLeaf_75: -1600549939
-      TanukiBrownWithLeaf_76: 1921755824
-      TanukiBrownWithLeaf_77: -1056848788
-      TanukiBrownWithLeaf_78: -1626557507
-      TanukiBrownWithLeaf_79: 230721258
-      TanukiBrownWithLeaf_8: 1793664885
-      TanukiBrownWithLeaf_9: 203160679
+      HERO_0: 1916795720
+      HERO_1: 1450356664
+      HERO_10: -925089854
+      HERO_11: -1256996960
+      HERO_12: -248255305
+      HERO_13: 359658895
+      HERO_14: -1018790366
+      HERO_15: 536302336
+      HERO_16: 1269152172
+      HERO_17: -1385630390
+      HERO_18: -1920607247
+      HERO_19: 1031808465
+      HERO_2: 1603866183
+      HERO_20: 101670269
+      HERO_21: -2090145507
+      HERO_22: -1021992560
+      HERO_23: -689363946
+      HERO_24: -802788761
+      HERO_25: 90852609
+      HERO_26: 2122516812
+      HERO_27: 447801418
+      HERO_28: 742473198
+      HERO_29: 1821346329
+      HERO_3: 534851772
+      HERO_30: 1446871621
+      HERO_31: 226082118
+      HERO_32: -1754438936
+      HERO_33: -1290785065
+      HERO_34: -677849949
+      HERO_35: 407506439
+      HERO_36: 446814130
+      HERO_37: -2112764639
+      HERO_38: 1074565469
+      HERO_39: -1627477003
+      HERO_4: -1931330531
+      HERO_40: 92858605
+      HERO_41: -1039996436
+      HERO_42: -1551658808
+      HERO_43: 841866665
+      HERO_44: -1373463926
+      HERO_45: 554183157
+      HERO_46: 650192885
+      HERO_47: -2123960126
+      HERO_48: 1858815801
+      HERO_49: 237951225
+      HERO_5: 1214694438
+      HERO_50: 1902208442
+      HERO_51: -1482005626
+      HERO_52: 696091632
+      HERO_53: -1487091480
+      HERO_54: 524538513
+      HERO_55: 314941281
+      HERO_56: 746572019
+      HERO_57: -1645498417
+      HERO_58: 1335315038
+      HERO_59: -1507209378
+      HERO_6: 1190369021
+      HERO_60: -1166890552
+      HERO_61: -254101134
+      HERO_62: -1447338466
+      HERO_63: 1576353545
+      HERO_64: 289599469
+      HERO_65: -1798139567
+      HERO_66: -885488940
+      HERO_67: -613296315
+      HERO_68: 746695722
+      HERO_69: 1681532998
+      HERO_7: 364252381
+      HERO_70: 447771736
+      HERO_71: 1821447695
+      HERO_72: -2073527398
+      HERO_73: -598324732
+      HERO_74: -2096084407
+      HERO_75: -220776743
+      HERO_76: 1572520630
+      HERO_77: 1648298946
+      HERO_78: 1071396194
+      HERO_79: 549822044
+      HERO_8: 824411575
+      HERO_9: -1169036116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

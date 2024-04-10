@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 85085641af92b4a4e8a2eba898b888d6
+guid: 01fcd525df1bc3d4e9d35dbf7b14727e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blacksmith 02_0
+      name: HERO_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1001b26937ed2174183ca52175c8a12f
-      internalID: -936087828
+      spriteID: 0166af3a85edf2b459aef7ca17c53b61
+      internalID: -620298840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_1
+      name: HERO_1
       rect:
         serializedVersion: 2
         x: 16
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86e010c9c81bc6b42bc66b644ac12dee
-      internalID: 965408042
+      spriteID: b5dfa7fbacc90df4a80d1b58a5a270e7
+      internalID: 703473093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_2
+      name: HERO_2
       rect:
         serializedVersion: 2
         x: 32
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c8c55a78a645f44ca1b65c986fdeea8
-      internalID: 1222475789
+      spriteID: baf00dff17077e54e9e72953e41beec8
+      internalID: -909885898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_3
+      name: HERO_3
       rect:
         serializedVersion: 2
         x: 48
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19b345fe848de834c890a8703267100c
-      internalID: -122801062
+      spriteID: 210c9cce361cff6498feeab6f07fc25f
+      internalID: -352465725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_4
+      name: HERO_4
       rect:
         serializedVersion: 2
         x: 64
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edda096f64142cf4f8317b4c0d9c3e5c
-      internalID: 526122259
+      spriteID: 20a99d085fe896f438c1eb8727c56168
+      internalID: 1991673554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_5
+      name: HERO_5
       rect:
         serializedVersion: 2
         x: 80
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbb0289fbba6a184d970d25da35e3ae3
-      internalID: -1456556981
+      spriteID: ad182e3cc3155bf46b01b928ae6df950
+      internalID: -1203293558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_6
+      name: HERO_6
       rect:
         serializedVersion: 2
         x: 96
@@ -276,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44e0a6bc6df8b3441b0a138705ac6111
-      internalID: 1560120543
+      spriteID: 7280d27a3d63b4d41b7568d373badb71
+      internalID: -456780206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_7
+      name: HERO_7
       rect:
         serializedVersion: 2
         x: 112
@@ -297,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ee1eb7fe5c9ffa4d9ea85c02d22843a
-      internalID: -720907592
+      spriteID: e341ad3301a66834e92c4517a9f33823
+      internalID: -949010630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_8
+      name: HERO_8
       rect:
         serializedVersion: 2
         x: 0
@@ -318,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef877db8690505441a5d2b27a7511cdf
-      internalID: 183982119
+      spriteID: 485fd767a2e3c924eb54a8e437ea0444
+      internalID: 718965803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_9
+      name: HERO_9
       rect:
         serializedVersion: 2
         x: 16
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57df49ec0e4bc35408890516adcec174
-      internalID: 1228095203
+      spriteID: 2189ea221b2bc1b42aab501b7a79e6cf
+      internalID: -1974930754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_10
+      name: HERO_10
       rect:
         serializedVersion: 2
         x: 32
@@ -360,14 +360,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5875f91e317376848b9b80b4702995b7
-      internalID: 762702957
+      spriteID: cf01415bbec8ce64fa79c9f2cf31d206
+      internalID: 108846648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_11
+      name: HERO_11
       rect:
         serializedVersion: 2
         x: 48
@@ -381,14 +381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35427258fba8df9448198c090b1a07dc
-      internalID: -879921844
+      spriteID: a221bea38274faf4884b49385e3d4327
+      internalID: -483389081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_12
+      name: HERO_12
       rect:
         serializedVersion: 2
         x: 64
@@ -402,14 +402,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b8a467dc3cdbfe44b9f4f89cb4b3504
-      internalID: 1789427225
+      spriteID: 891b438ce77ff9340a0a227e3b702dcf
+      internalID: 1049246821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_13
+      name: HERO_13
       rect:
         serializedVersion: 2
         x: 80
@@ -423,14 +423,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2ac218596dcbf740a0afa14bad01444
-      internalID: -866380501
+      spriteID: c383eef30a89b7242adc5118ce581b48
+      internalID: 1974120810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_14
+      name: HERO_14
       rect:
         serializedVersion: 2
         x: 96
@@ -444,14 +444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6fb6e70369cb444a8351301f757eb4
-      internalID: 417930308
+      spriteID: f8b16dec88c388a4996ed017047a407d
+      internalID: 1835569822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_15
+      name: HERO_15
       rect:
         serializedVersion: 2
         x: 112
@@ -465,14 +465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d05265505edd57141b0b6eccf840935b
-      internalID: -557623546
+      spriteID: 01c3a6d0987695445abb3c0cf5fa5e1b
+      internalID: 745444735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_16
+      name: HERO_16
       rect:
         serializedVersion: 2
         x: 0
@@ -486,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3142f6305efca8549998953ff5a2a6b2
-      internalID: -683954296
+      spriteID: 4d498137341b6df4eb24951e0beab672
+      internalID: 1667990929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_17
+      name: HERO_17
       rect:
         serializedVersion: 2
         x: 16
@@ -507,14 +507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12cd9700cd7a2da429929fd1d6681288
-      internalID: 1521392270
+      spriteID: 689501f1b0231da4cbef59402e3870b1
+      internalID: -1415116677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_18
+      name: HERO_18
       rect:
         serializedVersion: 2
         x: 32
@@ -528,14 +528,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3420bdf49145e2c4e9356c6359963d54
-      internalID: -1991162227
+      spriteID: 890480d44d3bf2942ad88901607561e8
+      internalID: 2099270976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_19
+      name: HERO_19
       rect:
         serializedVersion: 2
         x: 48
@@ -549,14 +549,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64008e373360d81479936526042a447c
-      internalID: -971825034
+      spriteID: 7d7184784bd577c4390e116215c2b74c
+      internalID: 1121212689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_20
+      name: HERO_20
       rect:
         serializedVersion: 2
         x: 64
@@ -570,14 +570,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5edafa87a124204bb35b350fc58e054
-      internalID: 1679614737
+      spriteID: d5e1420af9afec14b9fcd43477ff5888
+      internalID: -886769018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_21
+      name: HERO_21
       rect:
         serializedVersion: 2
         x: 80
@@ -591,14 +591,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd4684af6bf02d347bba7d9c872e96ad
-      internalID: -657583332
+      spriteID: 8d474ac5422d55d45a57ea90bac3c1c8
+      internalID: -1048270626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_22
+      name: HERO_22
       rect:
         serializedVersion: 2
         x: 96
@@ -612,14 +612,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a9a374432ae92f41bbda5131d20b893
-      internalID: -1455570972
+      spriteID: 8ec81055a87bcbb4893ce2f5b1306cc2
+      internalID: -1313283391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_23
+      name: HERO_23
       rect:
         serializedVersion: 2
         x: 112
@@ -633,14 +633,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 739e0584ee384a54293e8a2cf74e4b1f
-      internalID: 333633832
+      spriteID: 98066135915993d4585d5a9cca50152a
+      internalID: 1946290825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_24
+      name: HERO_24
       rect:
         serializedVersion: 2
         x: 0
@@ -654,14 +654,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d83a36a33c0b60e43b43a1cb61d2e0cd
-      internalID: -21473269
+      spriteID: b34e48295669850469bdf54f6fef10d1
+      internalID: -807161086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_25
+      name: HERO_25
       rect:
         serializedVersion: 2
         x: 16
@@ -675,14 +675,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ac2903c642dcb748bc55482fa59b76c
-      internalID: -1717781409
+      spriteID: 4fec6932d9fa43b40906271a7b074ddc
+      internalID: 1536801030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_26
+      name: HERO_26
       rect:
         serializedVersion: 2
         x: 32
@@ -696,14 +696,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a3ffd5dd2a2d3a428a3b0cc9a7dad6a
-      internalID: 601660220
+      spriteID: 5fa72d43785335b4fa97a817ff3e1693
+      internalID: 1282460514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_27
+      name: HERO_27
       rect:
         serializedVersion: 2
         x: 48
@@ -717,14 +717,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f5a9cec3c7dc3c4f980f202d47993e5
-      internalID: 2021113362
+      spriteID: f862e884f954c0d40a8394512ad5b6f5
+      internalID: -583433410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_28
+      name: HERO_28
       rect:
         serializedVersion: 2
         x: 64
@@ -738,14 +738,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 448c604fb4f8cc24d8109e37d9af915b
-      internalID: -301861701
+      spriteID: 053b9573a080d784980d5142d8306a6e
+      internalID: 504478994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_29
+      name: HERO_29
       rect:
         serializedVersion: 2
         x: 80
@@ -759,14 +759,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9131b5f734506284cb08704bd4447c22
-      internalID: 1538772871
+      spriteID: 95236803ecb4b3d439c2213fb23a16bf
+      internalID: -980248441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_30
+      name: HERO_30
       rect:
         serializedVersion: 2
         x: 96
@@ -780,14 +780,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34a0bc4ce6b0da345a6a3a1e6e1554cc
-      internalID: -1765844106
+      spriteID: 62cebcb1e3f1de945950fbb41d7c22aa
+      internalID: -2109049328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_31
+      name: HERO_31
       rect:
         serializedVersion: 2
         x: 112
@@ -801,14 +801,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 600896868322258408d144cf39d6be20
-      internalID: 785921781
+      spriteID: 19a3d6dc027dda040a6e3793f790ef0a
+      internalID: 55766106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_32
+      name: HERO_32
       rect:
         serializedVersion: 2
         x: 0
@@ -822,14 +822,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e2a9057524d123439b0e12052f13f9f
-      internalID: -1078616102
+      spriteID: 00c5cb42a8353d74fbca5011dffb9f5e
+      internalID: -1507722780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_33
+      name: HERO_33
       rect:
         serializedVersion: 2
         x: 16
@@ -843,14 +843,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63a4420e007a44143a643a36cba89804
-      internalID: -985428099
+      spriteID: 7cc533cdd0f1bd241b428c93d78a956c
+      internalID: -1403546722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_34
+      name: HERO_34
       rect:
         serializedVersion: 2
         x: 32
@@ -864,14 +864,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 635af1f2144fe6944b67b6c1ebc06a56
-      internalID: 1764016421
+      spriteID: ea76cdcea13473248a163489d076920f
+      internalID: -731612311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_35
+      name: HERO_35
       rect:
         serializedVersion: 2
         x: 48
@@ -885,14 +885,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5154dc5e68862d04a9760be12c947a64
-      internalID: 1904457535
+      spriteID: bf484249c22a4b24da41d7f03c52f455
+      internalID: 1438040017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_36
+      name: HERO_36
       rect:
         serializedVersion: 2
         x: 64
@@ -906,14 +906,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6c7fc9e33434bd4b897c5a2c76dab99
-      internalID: 623468052
+      spriteID: 2dcbf71bebeae16488253ef96d801008
+      internalID: 443027914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_37
+      name: HERO_37
       rect:
         serializedVersion: 2
         x: 80
@@ -927,14 +927,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56163446ea29034439d5a7a5c33b795b
-      internalID: -1262992724
+      spriteID: b8039a45d143b674b83439bfa69ed151
+      internalID: -565811321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_38
+      name: HERO_38
       rect:
         serializedVersion: 2
         x: 96
@@ -948,14 +948,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 883e660f7a1e22a4aa6a2c1d81c3b291
-      internalID: -1480810611
+      spriteID: 36f313d658efd8e4ba8307d3ad4a1392
+      internalID: 1593370535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_39
+      name: HERO_39
       rect:
         serializedVersion: 2
         x: 112
@@ -969,14 +969,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33cb1d992ddd481499e23ad7d33b1e26
-      internalID: -715689723
+      spriteID: ec1c323769673d8499a8caf1524fd107
+      internalID: 920267008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_40
+      name: HERO_40
       rect:
         serializedVersion: 2
         x: 0
@@ -990,14 +990,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c66fb3b485e89954f9a8a986575b44d3
-      internalID: -645020358
+      spriteID: 1b49704cce49b924d83520fb5b02188b
+      internalID: 1924182437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_41
+      name: HERO_41
       rect:
         serializedVersion: 2
         x: 16
@@ -1011,14 +1011,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f12b3b5ce1ce0f64990e37a53acc1bcc
-      internalID: 793785939
+      spriteID: dbc8303bb23a1be43897c169de6df18c
+      internalID: 97477912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_42
+      name: HERO_42
       rect:
         serializedVersion: 2
         x: 32
@@ -1032,14 +1032,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 940e55c8281f3fc48b14aad94f64998e
-      internalID: -1635900765
+      spriteID: 1fd1b4901e039604296c6de54c7b8978
+      internalID: -1044742686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_43
+      name: HERO_43
       rect:
         serializedVersion: 2
         x: 48
@@ -1053,14 +1053,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bd7875d6a7364c4c987195c594b2ca1
-      internalID: -1171413718
+      spriteID: eeb88747b25c3454b947d0e61aa2f691
+      internalID: 2141722811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_44
+      name: HERO_44
       rect:
         serializedVersion: 2
         x: 64
@@ -1074,14 +1074,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1117c163369831e4eb42c1ef0f65311e
-      internalID: 166056776
+      spriteID: 78d1137ddf90dfb42afff42dcbfb83b9
+      internalID: -402335520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_45
+      name: HERO_45
       rect:
         serializedVersion: 2
         x: 80
@@ -1095,14 +1095,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a9a5cfb3ca11854c8d323ab2eca3cd8
-      internalID: -650197001
+      spriteID: 39beb24cb0fd2454ea1266e9f582f455
+      internalID: 1950705061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_46
+      name: HERO_46
       rect:
         serializedVersion: 2
         x: 96
@@ -1116,14 +1116,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f90781fc4bbeef40a417b03548043bb
-      internalID: 802237133
+      spriteID: 3df1e258472cd23429f520f60eff153d
+      internalID: -500299119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_47
+      name: HERO_47
       rect:
         serializedVersion: 2
         x: 112
@@ -1137,14 +1137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d06cdacd79bba1142bb6ceeb4ba08b44
-      internalID: 763893168
+      spriteID: c87c3d9a1a110e8499f62dcb22d71246
+      internalID: -522934622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_48
+      name: HERO_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1158,14 +1158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b074e1d737dba74a8178e404f0102e1
-      internalID: -53813079
+      spriteID: 0bb915b48da33df4cbfa6ab1a0b5fe0a
+      internalID: -2026410962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_49
+      name: HERO_49
       rect:
         serializedVersion: 2
         x: 16
@@ -1179,14 +1179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40b5c0d4e4ca5d543bab3984f0e31a76
-      internalID: -973304318
+      spriteID: 9bd416f7a74815f48857d09ffd698954
+      internalID: 547579648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_50
+      name: HERO_50
       rect:
         serializedVersion: 2
         x: 32
@@ -1200,14 +1200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81f28a7ad661db043a6e2e0864e4d924
-      internalID: 1177886092
+      spriteID: 4ebd0e5619a0b5a4a929c4a4a6dd6350
+      internalID: -1513508491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_51
+      name: HERO_51
       rect:
         serializedVersion: 2
         x: 48
@@ -1221,14 +1221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e641dea5b6838b6489c69bc8def26679
-      internalID: -897793376
+      spriteID: eb61030f281a0234d88a74cea9078f61
+      internalID: 1198901919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_52
+      name: HERO_52
       rect:
         serializedVersion: 2
         x: 64
@@ -1242,14 +1242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ec4129343af28048bb868f941874022
-      internalID: 289641847
+      spriteID: 6ec60ac8329ec2043a1227e36cf49add
+      internalID: 2124966468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_53
+      name: HERO_53
       rect:
         serializedVersion: 2
         x: 80
@@ -1263,14 +1263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 619baa18dbf8d384782a7488cde84109
-      internalID: 1735425948
+      spriteID: 3d0b7bcae3bd2b74fb6293c756c91d3c
+      internalID: -754923097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_54
+      name: HERO_54
       rect:
         serializedVersion: 2
         x: 96
@@ -1284,14 +1284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a75822a2d835b8d4982023c0158df3f6
-      internalID: -2134986973
+      spriteID: fbd19ecbddc492b419cca16ccf10462a
+      internalID: 1813843623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_55
+      name: HERO_55
       rect:
         serializedVersion: 2
         x: 112
@@ -1305,14 +1305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 894d5175e005c1c40b68df2abb5ffadd
-      internalID: -1604116851
+      spriteID: f0bb41078ea497946b4f69a0d795b76b
+      internalID: -399318216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_56
+      name: HERO_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1326,14 +1326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 641efca8dee85af4eb2f7de1b55eb4e6
-      internalID: 402535230
+      spriteID: 43b3cfb421388b44e8d775f166b92bad
+      internalID: 573310102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_57
+      name: HERO_57
       rect:
         serializedVersion: 2
         x: 16
@@ -1347,14 +1347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d9256ee2055cd64cb0ff242f11f94a9
-      internalID: 79243792
+      spriteID: 6294a3bb6e6a9c3498066f9f605aa59e
+      internalID: -108745493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_58
+      name: HERO_58
       rect:
         serializedVersion: 2
         x: 32
@@ -1368,14 +1368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a766df0b5b14aee4dad88c4d618a33d0
-      internalID: 477350760
+      spriteID: 42d1ed27289798b4e8f5df956c745660
+      internalID: 1607410774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_59
+      name: HERO_59
       rect:
         serializedVersion: 2
         x: 48
@@ -1389,14 +1389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47a254250e0b5de4d999ca8032e16182
-      internalID: -1689898442
+      spriteID: 2a2a8354bdd335e4fb2da5f911476106
+      internalID: -1648694981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_60
+      name: HERO_60
       rect:
         serializedVersion: 2
         x: 64
@@ -1410,14 +1410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47fd928968afc8f4ca6bad35e89ad72a
-      internalID: 327221200
+      spriteID: ebaa97ebcdf489b498bab2301de01a51
+      internalID: -1145063890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_61
+      name: HERO_61
       rect:
         serializedVersion: 2
         x: 80
@@ -1431,14 +1431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b604e215006da43b6ae9d8af65c816
-      internalID: -1878789583
+      spriteID: b276b0759d65d904f8f6c3b9b8337e33
+      internalID: 1957003958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_62
+      name: HERO_62
       rect:
         serializedVersion: 2
         x: 96
@@ -1452,14 +1452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4591e0876c659ea4db9f9df51dd39872
-      internalID: -1006554454
+      spriteID: 03706acc96f773443a551837540af450
+      internalID: 1866434411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_63
+      name: HERO_63
       rect:
         serializedVersion: 2
         x: 112
@@ -1473,14 +1473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cf762814666964439e2596d7fc9e250
-      internalID: -122120195
+      spriteID: f457fc821d5d9754c91179ae18ab2c43
+      internalID: 281576639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_64
+      name: HERO_64
       rect:
         serializedVersion: 2
         x: 16
@@ -1494,14 +1494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25038894be636af4f9beec991fd3f1d4
-      internalID: -1351460517
+      spriteID: 715e916188a4d21479e66b68da16636b
+      internalID: 530365757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_65
+      name: HERO_65
       rect:
         serializedVersion: 2
         x: 48
@@ -1515,14 +1515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4efc909c20627d44687f6d1ab59c6844
-      internalID: 166928227
+      spriteID: 132f783353d0ae14182f622a05fd5fce
+      internalID: -615273147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_66
+      name: HERO_66
       rect:
         serializedVersion: 2
         x: 64
@@ -1536,14 +1536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72ccbd61d2dc5dc4a9e1fd98faaef403
-      internalID: 618544475
+      spriteID: 7f540b312a5a6244ca872a71794f1bb9
+      internalID: 1846986098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_67
+      name: HERO_67
       rect:
         serializedVersion: 2
         x: 96
@@ -1557,14 +1557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9841498f4599b041ae425ec137264e3
-      internalID: -1062218484
+      spriteID: d7538aac1d4bb1c40a6162cff8f15378
+      internalID: 324554151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_68
+      name: HERO_68
       rect:
         serializedVersion: 2
         x: 0
@@ -1578,14 +1578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8cdd0ff1e3c1fa4cbbb62716c6950e2
-      internalID: -1133026168
+      spriteID: 35ffba619009051438c01660645e5d41
+      internalID: -1356397785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_69
+      name: HERO_69
       rect:
         serializedVersion: 2
         x: 32
@@ -1599,14 +1599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dca9f1ecec2fab41bccc518227ffd0c
-      internalID: 1278158390
+      spriteID: cc8d074dfc8e7434e84f7af5df097854
+      internalID: -1998296488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_70
+      name: HERO_70
       rect:
         serializedVersion: 2
         x: 80
@@ -1620,14 +1620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 356e1bbce82c00b478ac922fd7a69953
-      internalID: -807793145
+      spriteID: 420a4b70990fa3745884a694b3985ddb
+      internalID: -1284516153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_71
+      name: HERO_71
       rect:
         serializedVersion: 2
         x: 112
@@ -1641,14 +1641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f46aace5a9d49bc4d99d287faee91815
-      internalID: 659116178
+      spriteID: f7dfc2ebc388c2a42b811fb8b15efad1
+      internalID: 895496550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_72
+      name: HERO_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1662,14 +1662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44dcd69c0ccbcf04a9dc3ebd4a49ea40
-      internalID: 1751650818
+      spriteID: dcae5e4c09a12794482bbbe828ab3582
+      internalID: 1890325423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_73
+      name: HERO_73
       rect:
         serializedVersion: 2
         x: 32
@@ -1683,14 +1683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6b5e98777f765f40925a7c74a6814a6
-      internalID: -337440596
+      spriteID: 54d6b85149d65da448cd3e93252f40ce
+      internalID: -1470012093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_74
+      name: HERO_74
       rect:
         serializedVersion: 2
         x: 64
@@ -1704,14 +1704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 371fff38127f2cd48aa277f2ad96f0ad
-      internalID: 1718259844
+      spriteID: 7e6e252f1a06e7d4e93f3ea647651ca8
+      internalID: 654963880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_75
+      name: HERO_75
       rect:
         serializedVersion: 2
         x: 96
@@ -1725,14 +1725,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf43f77f8d9cb945ba333b43889ba56
-      internalID: -1828687393
+      spriteID: 9234cc585941f5147b0934dfa12c4b7d
+      internalID: 678997969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_76
+      name: HERO_76
       rect:
         serializedVersion: 2
         x: 80
@@ -1746,14 +1746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48e556e82be455f4fadd5b3d9e0d4689
-      internalID: 1430516740
+      spriteID: a859616dbd35009448769cffe6543a2d
+      internalID: 1229864419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_77
+      name: HERO_77
       rect:
         serializedVersion: 2
         x: 112
@@ -1767,14 +1767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d042b548029afce44bf64d40c16a560a
-      internalID: -963136559
+      spriteID: 300c8961f6d6b5e4ead62d1294429c21
+      internalID: 1067686279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_78
+      name: HERO_78
       rect:
         serializedVersion: 2
         x: 16
@@ -1788,14 +1788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c111c1de26a0448a0be8a6f6ce6644
-      internalID: -1900031409
+      spriteID: b8b4a8deb86f0f04cb67a37b68d855ac
+      internalID: -469581970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith 02_79
+      name: HERO_79
       rect:
         serializedVersion: 2
         x: 48
@@ -1809,8 +1809,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b77c2e109ad56c4f9b6ebbf814f16fb
-      internalID: 1619731608
+      spriteID: 7de49c958a747d542a83aeb391bd2c38
+      internalID: -12642152
       vertices: []
       indices: 
       edges: []
@@ -1818,7 +1818,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 1447b61360811204fbdd5f49da32e140
     internalID: 0
     vertices: []
     indices: 
@@ -1826,86 +1826,86 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Blacksmith 02_0: -936087828
-      Blacksmith 02_1: 965408042
-      Blacksmith 02_10: 762702957
-      Blacksmith 02_11: -879921844
-      Blacksmith 02_12: 1789427225
-      Blacksmith 02_13: -866380501
-      Blacksmith 02_14: 417930308
-      Blacksmith 02_15: -557623546
-      Blacksmith 02_16: -683954296
-      Blacksmith 02_17: 1521392270
-      Blacksmith 02_18: -1991162227
-      Blacksmith 02_19: -971825034
-      Blacksmith 02_2: 1222475789
-      Blacksmith 02_20: 1679614737
-      Blacksmith 02_21: -657583332
-      Blacksmith 02_22: -1455570972
-      Blacksmith 02_23: 333633832
-      Blacksmith 02_24: -21473269
-      Blacksmith 02_25: -1717781409
-      Blacksmith 02_26: 601660220
-      Blacksmith 02_27: 2021113362
-      Blacksmith 02_28: -301861701
-      Blacksmith 02_29: 1538772871
-      Blacksmith 02_3: -122801062
-      Blacksmith 02_30: -1765844106
-      Blacksmith 02_31: 785921781
-      Blacksmith 02_32: -1078616102
-      Blacksmith 02_33: -985428099
-      Blacksmith 02_34: 1764016421
-      Blacksmith 02_35: 1904457535
-      Blacksmith 02_36: 623468052
-      Blacksmith 02_37: -1262992724
-      Blacksmith 02_38: -1480810611
-      Blacksmith 02_39: -715689723
-      Blacksmith 02_4: 526122259
-      Blacksmith 02_40: -645020358
-      Blacksmith 02_41: 793785939
-      Blacksmith 02_42: -1635900765
-      Blacksmith 02_43: -1171413718
-      Blacksmith 02_44: 166056776
-      Blacksmith 02_45: -650197001
-      Blacksmith 02_46: 802237133
-      Blacksmith 02_47: 763893168
-      Blacksmith 02_48: -53813079
-      Blacksmith 02_49: -973304318
-      Blacksmith 02_5: -1456556981
-      Blacksmith 02_50: 1177886092
-      Blacksmith 02_51: -897793376
-      Blacksmith 02_52: 289641847
-      Blacksmith 02_53: 1735425948
-      Blacksmith 02_54: -2134986973
-      Blacksmith 02_55: -1604116851
-      Blacksmith 02_56: 402535230
-      Blacksmith 02_57: 79243792
-      Blacksmith 02_58: 477350760
-      Blacksmith 02_59: -1689898442
-      Blacksmith 02_6: 1560120543
-      Blacksmith 02_60: 327221200
-      Blacksmith 02_61: -1878789583
-      Blacksmith 02_62: -1006554454
-      Blacksmith 02_63: -122120195
-      Blacksmith 02_64: -1351460517
-      Blacksmith 02_65: 166928227
-      Blacksmith 02_66: 618544475
-      Blacksmith 02_67: -1062218484
-      Blacksmith 02_68: -1133026168
-      Blacksmith 02_69: 1278158390
-      Blacksmith 02_7: -720907592
-      Blacksmith 02_70: -807793145
-      Blacksmith 02_71: 659116178
-      Blacksmith 02_72: 1751650818
-      Blacksmith 02_73: -337440596
-      Blacksmith 02_74: 1718259844
-      Blacksmith 02_75: -1828687393
-      Blacksmith 02_76: 1430516740
-      Blacksmith 02_77: -963136559
-      Blacksmith 02_78: -1900031409
-      Blacksmith 02_79: 1619731608
-      Blacksmith 02_8: 183982119
-      Blacksmith 02_9: 1228095203
+      HERO_0: -620298840
+      HERO_1: 703473093
+      HERO_10: 108846648
+      HERO_11: -483389081
+      HERO_12: 1049246821
+      HERO_13: 1974120810
+      HERO_14: 1835569822
+      HERO_15: 745444735
+      HERO_16: 1667990929
+      HERO_17: -1415116677
+      HERO_18: 2099270976
+      HERO_19: 1121212689
+      HERO_2: -909885898
+      HERO_20: -886769018
+      HERO_21: -1048270626
+      HERO_22: -1313283391
+      HERO_23: 1946290825
+      HERO_24: -807161086
+      HERO_25: 1536801030
+      HERO_26: 1282460514
+      HERO_27: -583433410
+      HERO_28: 504478994
+      HERO_29: -980248441
+      HERO_3: -352465725
+      HERO_30: -2109049328
+      HERO_31: 55766106
+      HERO_32: -1507722780
+      HERO_33: -1403546722
+      HERO_34: -731612311
+      HERO_35: 1438040017
+      HERO_36: 443027914
+      HERO_37: -565811321
+      HERO_38: 1593370535
+      HERO_39: 920267008
+      HERO_4: 1991673554
+      HERO_40: 1924182437
+      HERO_41: 97477912
+      HERO_42: -1044742686
+      HERO_43: 2141722811
+      HERO_44: -402335520
+      HERO_45: 1950705061
+      HERO_46: -500299119
+      HERO_47: -522934622
+      HERO_48: -2026410962
+      HERO_49: 547579648
+      HERO_5: -1203293558
+      HERO_50: -1513508491
+      HERO_51: 1198901919
+      HERO_52: 2124966468
+      HERO_53: -754923097
+      HERO_54: 1813843623
+      HERO_55: -399318216
+      HERO_56: 573310102
+      HERO_57: -108745493
+      HERO_58: 1607410774
+      HERO_59: -1648694981
+      HERO_6: -456780206
+      HERO_60: -1145063890
+      HERO_61: 1957003958
+      HERO_62: 1866434411
+      HERO_63: 281576639
+      HERO_64: 530365757
+      HERO_65: -615273147
+      HERO_66: 1846986098
+      HERO_67: 324554151
+      HERO_68: -1356397785
+      HERO_69: -1998296488
+      HERO_7: -949010630
+      HERO_70: -1284516153
+      HERO_71: 895496550
+      HERO_72: 1890325423
+      HERO_73: -1470012093
+      HERO_74: 654963880
+      HERO_75: 678997969
+      HERO_76: 1229864419
+      HERO_77: 1067686279
+      HERO_78: -469581970
+      HERO_79: -12642152
+      HERO_8: 718965803
+      HERO_9: -1974930754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
